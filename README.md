@@ -183,7 +183,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[G-FRNet-Res101]** Islam, M. A., et al. (2018). Gated Feedback Refinement Network for Coarse-to-Fine Dense Semantic Image Labeling. arXiv:1806.11266
 - **[CCF-GMA]** Ding, H., et al. (2018). Context Contrasted Feature and Gated Multi-scale Aggregation for Scene Segmentation. IEEE Conference on Computer Vision and Pattern Recognition: 2393-2402.
 - **[Context]** Lin, G., et al. (2018). Exploring Context with Deep Structured Models for Semantic Segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 40(6), 1352-1366.
-- **[ D-Refine-152]** Chang, M., et al. (2018). Depth-assisted RefineNet for Indoor Semantic Segmentation. International Conference on Pattern Recognition: 1845-1850.
+- **[D-Refine-152]** Chang, M., et al. (2018). Depth-assisted RefineNet for Indoor Semantic Segmentation. International Conference on Pattern Recognition: 1845-1850.
 - **[D-depth-reg]** Guo, Y. and T. Chen (2018). Semantic segmentation of RGBD images based on deep depth regression. Pattern Recognition Letters 109: 55-64.
 - **[RGBD-Geo]** Liu, H., et al. (2018). RGB-D joint modeling with scene geometric information for indoor semantic segmentation. Multimedia Tools and Applications 77(17): 22475-22488.
 - **[D-CNN]** Wang, W. and U. Neumann (2018). Depth-aware CNN for RGB-D Segmentation. European Conference on Computer Vision: 144-161.
