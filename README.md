@@ -47,7 +47,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 
 ### NYUDv2
 
-|           Method           |   PixAcc    |    mAcc     |    mIoU    |     f.w.IOU      | Input |      Ref.       |  Published  | Year |
+|           Method           |   PixAcc    |    mAcc     |    mIoU    |     f.w.IOU      | Input |    Ref. from    |  Published  | Year |
 | :------------------------: | :---------: | :---------: | :--------: | :--------------: | :---: | :-------------: | :---------: | ---- |
 |          **POR**           |    59.1     |    28.4     |    29.1    |                  | RGBD  |                 |    CVPR     | 2013 |
 |       **RGBD R-CNN**       |    60.3     |    35.1     |    31.3    |  47(in LSD-GF)   | RGBD  |                 |    ECCV     | 2014 |
@@ -100,7 +100,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 
 ### SUN RGB-D
 
-|           Method           |   PixAcc    |    mAcc     |    mIoU    | f.w.IOU | Input |       Ref.       | Published | Year |
+|           Method           |   PixAcc    |    mAcc     |    mIoU    | f.w.IOU | Input |     Ref. from    | Published | Year |
 | :------------------------: | :---------: | :---------: | :--------: | :-----: | :---: | :--------------: | :-------: | ---- |
 |          **FCN**           |    68.2     |    38.4     |    27.4    |         |  RGB  |    **SegNet**    |   CVPR    | 2015 |
 |       **DeconvNet**        |    66.1     |    32.3     |    22.6    |         |  RGB  |    **SegNet**    |   ICCV    | 2015 |
@@ -142,7 +142,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 
 ### 2D-3D-S
 
-|      Method      | PixAcc | mAcc | mIoU | f.w.IOU | Input |       Ref.       | Published | Year |
+|      Method      | PixAcc | mAcc | mIoU | f.w.IOU | Input |    Ref. from     | Published | Year |
 | :--------------: | :----: | :--: | :--: | :-----: | :---: | :--------------: | :-------: | ---- |
 |   **Deeplab**    |  64.3  | 46.7 | 35.5 |  48.5   | RGBD  | **MMAF-Net-152** |   ICLR    | 2015 |
 |    **D-CNN**     |  65.4  | 55.5 | 39.5 |  49.9   | RGBD  |                  |   ECCV    | 2018 |
