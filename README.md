@@ -2,11 +2,12 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2020/05/24
+*Last updated: 2020/07/02
 
 #### Update log
 
-*2020/may* - update all of recent papers and make some diagram about history of RGBD semantic segmentation.  
+*2020/May* - update all of recent papers and make some diagram about history of RGBD semantic segmentation.  
+*2020/July* - update some recent papers of RGBD semantic segmentation.  
 
 ##
 
@@ -83,6 +84,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |        **Context**         |     70      |    53.6     |    40.6    |                  |  RGB  |                 |    TPAMI    | 2018 |
 |      **DeepLab-LFOV**      |    70.3     |    49.6     |    39.4    |       54.7       | RGBD  |    **STD2P**    |    TPAMI    | 2018 |
 |      **D-depth-reg**       |    66.7     |    46.3     |    34.8    |       50.6       | RGBD  |                 |     PRL     | 2018 |
+|         **PU-Loop**        |    72.1     |             |    44.5    |                  |  RGB  |                 |    CVPR     | 2018 |
 |          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  |                 |    CVPR     | 2019 |
 |         **CTS-IM**         |    76.3     |             |    50.6    |                  | RGBD  |                 |    ICIP     | 2019 |
 |          **PAP**           |    76.2     |    62.5     |    50.4    |                  |  RGB  |                 |    CVPR     | 2019 |
@@ -94,9 +96,13 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |         **DMFNet**         |    74.4     |    59.3     |    46.8    |                  | RGBD  |                 | IEEE Access | 2019 |
 |      **MMAF-Net-152**      |    72.2     |    59.2     |    44.8    |                  | RGBD  |                 |    arXiv    | 2019 |
 |         **RTJ-AA**         |             |             |     42     |                  |  RGB  |                 |    ICRA     | 2019 |
+|      **TRL-ResNet50**      |    81.3     |    60.0     |    50.3    |                  |  RGB  |                 |    TPAMI    | 2019 |
 |         **SGNet**          | <u>76.8</u> | <u>63.1</u> | <u>51</u>  |                  | RGBD  |                 |    arXiv    | 2020 |
 |     **SCN-ResNet101**      |             |             |    48.3    |                  | RGBD  |                 |    TCYB     | 2020 |
 | **RefineNet-Res152-Pool4** |    74.4     |    59.6     |    47.6    |                  |  RGB  |                 |    TPAMI    | 2020 |
+|         **TSNet**          |    73.5     |    59.6     |    46.1    |                  | RGBD  |                 |   IEEE IS   | 2020 |
+|     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |                 |    CVPR     | 2020 |
+
 
 ### SUN RGB-D
 
@@ -123,6 +129,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |         **D-CNN**          |             |    53.5     |     42     |         | RGBD  |                  |   ECCV    | 2018 |
 |     **G-FRNet-Res101**     |    75.3     |    47.5     |    36.9    |         |  RGB  |                  |   arXiv   | 2018 |
 |      **DeepLab-LFOV**      |    71.9     |    42.2     |    32.1    |         |  RGB  |                  |   TPAMI   | 2018 |
+|         **PU-Loop**        |    80.3     |             |    45.1    |         |  RGB  |                  |    CVPR   | 2018 |
 |          **GAD**           | ***85.5***  | ***74.9***  | ***54.5*** |         |  RGB  |                  |   CVPR    | 2019 |
 |     **KIL-ResNet101**      | <u>84.8</u> |     58      | <u>52</u>  |         |  RGB  |                  |   ACPR    | 2019 |
 |          **PAP**           |    83.8     |    58.4     |    50.5    |         |  RGB  |                  |   CVPR    | 2019 |
@@ -134,18 +141,22 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |        **LCR-RGBD**        |             |             |    42.4    |         | RGBD  |                  |   CVPRW   | 2019 |
 |        **EFCN-8s**         |    76.9     |    53.5     |    40.7    |         |  RGB  |                  |    TIP    | 2019 |
 |         **DSNet**          |    75.6     |             |    32.1    |         |  RGB  |                  |  ICASSP   | 2019 |
+|      **TRL-ResNet101**     |    84.8     |    59.1     |    50.8    |         |  RGB  |                  |   TPAMI   | 2019 |
 |     **SCN-ResNet152**      |             |             |    50.7    |         | RGBD  |                  |   TCYB    | 2020 |
 |         **SGNet**          |    81.8     |    60.9     |    48.5    |         | RGBD  |                  |   arXiv   | 2020 |
 |         **CGBNet**         |    82.3     |    61.3     |    48.2    |         |  RGB  |                  |    TIP    | 2020 |
 |    **CANet-ResNet101**     |    81.9     |             |    47.7    |         |  RGB  |                  |   arXiv   | 2020 |
 | **RefineNet-Res152-Pool4** |    81.1     |    57.7     |     47     |         |  RGB  |                  |   TPAMI   | 2020 |
+|     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
 
 ### 2D-3D-S
 
 |      Method      | PixAcc | mAcc | mIoU | f.w.IOU | Input |    Ref. from     | Published | Year |
 | :--------------: | :----: | :--: | :--: | :-----: | :---: | :--------------: | :-------: | ---- |
 |   **Deeplab**    |  64.3  | 46.7 | 35.5 |  48.5   | RGBD  | **MMAF-Net-152** |   ICLR    | 2015 |
+| **DeepLab-LFOV** |  88.0  | 42.2 | 69.8 |         |  RGB  |   **PU-Loop**    |   TPAMI   | 2018 |
 |    **D-CNN**     |  65.4  | 55.5 | 39.5 |  49.9   | RGBD  |                  |   ECCV    | 2018 |
+|   **PU-Loop**    |  91.0  |      | 76.5 |         |  RGB  |                  |    CVPR   | 2018 |
 | **MMAF-Net-152** |  76.5  | 62.3 | 52.9 |         | RGBD  |                  |   arXiv   | 2019 |
 |   **3M2RNet**    |  79.8  | 75.2 |  63  |         | RGBD  |                  |    SIC    | 2019 |
 
@@ -189,6 +200,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[D-CNN]** Wang, W. and U. Neumann (2018). Depth-aware CNN for RGB-D Segmentation. European Conference on Computer Vision: 144-161.
 - **[TRL-ResNet50]** Zhang, Z., et al. (2018). Joint Task-Recursive Learning for Semantic Segmentation and Depth Estimation. European Conference on Computer Vision.
 - **[DeepLab-LFOV]** Chen, L., et al. (2018). DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs. IEEE Transactions on Pattern Analysis and Machine Intelligence, 40(4), 834-848.
+- **[PU-Loop]** Kong, S. and C. Fowlkes (2018). Recurrent Scene Parsing with Perspective Understanding in the Loop. IEEE Conference on Computer Vision and Pattern Recognition: 956-965.
 - **[EFCN-8s]** Shuai, B., et al. (2019). Toward Achieving Robust Low-Level and High-Level Scene Parsing. IEEE Transactions on Image Processing, 28(3), 1378-1390.
 - **[3M2RNet]** Fooladgar, F., and Kasaei, S. (2019). 3M2RNet: Multi-Modal Multi-Resolution Refinement Network for Semantic Segmentation. Science and Information Conference: 544-557.
 - **[RFBNet]** Deng, L., et al. (2019). RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation. arXiv:1907.00135 
@@ -204,12 +216,14 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[PAP]** Zhang, Z., et al. (2019). Pattern-Affinitive Propagation Across Depth, Surface Normal and Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition: 4101-4110.
 - **[KIL-ResNet101]** Zhou, L., et al. (2019). KIL: Knowledge Interactiveness Learning for Joint Depth Estimation and Semantic Segmentation. Asian Conference on Pattern Recognition: 835-848.
 - **[FDNet-16s]** Zhen, M., et al. (2019). Learning Fully Dense Neural Networks for Image Semantic Segmentation. The Thirty-Third AAAI Conference on Artificial Intelligence: 9283-9290.
+- **[TRL-ResNet50/101]** Zhang, Z., et al. (2019). "Joint Task-Recursive Learning for RGB-D Scene Understanding." IEEE Transactions on Pattern Analysis and Machine Intelligence.
 - **[SGNet]** Chen, L.-Z., et al. (2020). Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation. arXiv:2004.04534.
 - **[SCN-ResNet101]** Lin, D., et al. (2020). SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Cybernetics 50(3): 1120-1131.
 - **[RefineNet-Res152-Pool4]** Lin, G., et al. (2020). RefineNet: Multi-Path Refinement Networks for Dense Prediction. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(5): 1228-1242.
-- **[CANet-ResNet101]** Tang, Q., et al. (2020). Attention-guided Chained Context Aggregation for Semantic Segmentation. 
+- **[CANet-ResNet101]** Tang, Q., et al. (2020). Attention-guided Chained Context Aggregation for Semantic Segmentation. arXiv:2002.12041 
 - **[CGBNet]** Ding, H., et al. (2020). Semantic Segmentation with Context Encoding and Multi-Path Decoding. IEEE Transactions on Image Processing 29: 3520-3533.
-
+- **[TSNet]** Zhou, W., et al. (2020). TSNet: Three-stream Self-attention Network for RGB-D Indoor Semantic Segmentation. IEEE Intelligent Systems.
+- **[PSD-ResNet50]** Zhou, L., et al. (2020). Pattern-Structure Diffusion for Multi-Task Learning. IEEE Conference on Computer Vision and Pattern Recognition.
 ##
 
 ## Contact & Feedback
