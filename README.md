@@ -96,7 +96,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |         **DMFNet**         |    74.4     |    59.3     |    46.8    |                  | RGBD  |                 | IEEE Access | 2019 |
 |      **MMAF-Net-152**      |    72.2     |    59.2     |    44.8    |                  | RGBD  |                 |    arXiv    | 2019 |
 |         **RTJ-AA**         |             |             |     42     |                  |  RGB  |                 |    ICRA     | 2019 |
-|      **TRL-ResNet50**      |    81.3     |    60.0     |    50.3    |                  |  RGB  |                 |    TPAMI    | 2019 |
+|      **JTRL-ResNet50**     |    81.3     |    60.0     |    50.3    |                  |  RGB  |                 |    TPAMI    | 2019 |
 |         **SGNet**          | <u>76.8</u> | <u>63.1</u> | <u>51</u>  |                  | RGBD  |                 |    arXiv    | 2020 |
 |     **SCN-ResNet101**      |             |             |    48.3    |                  | RGBD  |                 |    TCYB     | 2020 |
 | **RefineNet-Res152-Pool4** |    74.4     |    59.6     |    47.6    |                  |  RGB  |                 |    TPAMI    | 2020 |
@@ -141,7 +141,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |        **LCR-RGBD**        |             |             |    42.4    |         | RGBD  |                  |   CVPRW   | 2019 |
 |        **EFCN-8s**         |    76.9     |    53.5     |    40.7    |         |  RGB  |                  |    TIP    | 2019 |
 |         **DSNet**          |    75.6     |             |    32.1    |         |  RGB  |                  |  ICASSP   | 2019 |
-|      **TRL-ResNet101**     |    84.8     |    59.1     |    50.8    |         |  RGB  |                  |   TPAMI   | 2019 |
+|      **JTRL-ResNet101**    |    84.8     |    59.1     |    50.8    |         |  RGB  |                  |   TPAMI   | 2019 |
 |     **SCN-ResNet152**      |             |             |    50.7    |         | RGBD  |                  |   TCYB    | 2020 |
 |         **SGNet**          |    81.8     |    60.9     |    48.5    |         | RGBD  |                  |   arXiv   | 2020 |
 |         **CGBNet**         |    82.3     |    61.3     |    48.2    |         |  RGB  |                  |    TIP    | 2020 |
@@ -198,7 +198,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[D-depth-reg]** Guo, Y. and T. Chen (2018). Semantic segmentation of RGBD images based on deep depth regression. Pattern Recognition Letters 109: 55-64.
 - **[RGBD-Geo]** Liu, H., et al. (2018). RGB-D joint modeling with scene geometric information for indoor semantic segmentation. Multimedia Tools and Applications 77(17): 22475-22488.
 - **[D-CNN]** Wang, W. and U. Neumann (2018). Depth-aware CNN for RGB-D Segmentation. European Conference on Computer Vision: 144-161.
-- **[TRL-ResNet50]** Zhang, Z., et al. (2018). Joint Task-Recursive Learning for Semantic Segmentation and Depth Estimation. European Conference on Computer Vision.
+- **[TRL-ResNet50/101]** Zhang, Z., et al. (2018). Joint Task-Recursive Learning for Semantic Segmentation and Depth Estimation. European Conference on Computer Vision.
 - **[DeepLab-LFOV]** Chen, L., et al. (2018). DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs. IEEE Transactions on Pattern Analysis and Machine Intelligence, 40(4), 834-848.
 - **[PU-Loop]** Kong, S. and C. Fowlkes (2018). Recurrent Scene Parsing with Perspective Understanding in the Loop. IEEE Conference on Computer Vision and Pattern Recognition: 956-965.
 - **[EFCN-8s]** Shuai, B., et al. (2019). Toward Achieving Robust Low-Level and High-Level Scene Parsing. IEEE Transactions on Image Processing, 28(3), 1378-1390.
@@ -216,7 +216,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[PAP]** Zhang, Z., et al. (2019). Pattern-Affinitive Propagation Across Depth, Surface Normal and Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition: 4101-4110.
 - **[KIL-ResNet101]** Zhou, L., et al. (2019). KIL: Knowledge Interactiveness Learning for Joint Depth Estimation and Semantic Segmentation. Asian Conference on Pattern Recognition: 835-848.
 - **[FDNet-16s]** Zhen, M., et al. (2019). Learning Fully Dense Neural Networks for Image Semantic Segmentation. The Thirty-Third AAAI Conference on Artificial Intelligence: 9283-9290.
-- **[TRL-ResNet50/101]** Zhang, Z., et al. (2019). "Joint Task-Recursive Learning for RGB-D Scene Understanding." IEEE Transactions on Pattern Analysis and Machine Intelligence.
+- **[JTRL-ResNet50/101]** Zhang, Z., et al. (2019). "Joint Task-Recursive Learning for RGB-D Scene Understanding." IEEE Transactions on Pattern Analysis and Machine Intelligence.
 - **[SGNet]** Chen, L.-Z., et al. (2020). Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation. arXiv:2004.04534.
 - **[SCN-ResNet101]** Lin, D., et al. (2020). SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Cybernetics 50(3): 1120-1131.
 - **[RefineNet-Res152-Pool4]** Lin, G., et al. (2020). RefineNet: Multi-Path Refinement Networks for Dense Prediction. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(5): 1228-1242.
