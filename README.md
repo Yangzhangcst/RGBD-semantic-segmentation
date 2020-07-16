@@ -230,4 +230,4 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 
 If you have any suggestions about this project, feel free to contact me.
 
-- [e-mail: yzhangcst@smail.nju.edu.cn]
+- [e-mail: yzhangcst[at]smail.nju.edu.cn]
