@@ -2,12 +2,13 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2020/07/02
+*Last updated: 2020/08/03
 
 #### Update log
 
 *2020/May* - update all of recent papers and make some diagram about history of RGBD semantic segmentation.  
-*2020/July* - update some recent papers of RGBD semantic segmentation.  
+*2020/July* - update some recent papers (CVPR2020) of RGBD semantic segmentation.  
+*2020/August* - update some recent papers (ECCV2020) of RGBD semantic segmentation.  
 
 ##
 
@@ -102,7 +103,8 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 | **RefineNet-Res152-Pool4** |    74.4     |    59.6     |    47.6    |                  |  RGB  |                 |    TPAMI    | 2020 |
 |         **TSNet**          |    73.5     |    59.6     |    46.1    |                  | RGBD  |                 |   IEEE IS   | 2020 |
 |     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |                 |    CVPR     | 2020 |
-
+|     **Malleable 2.5D**     |    76.9     |             |    50.9    |                  | RGBD  |                 |    ECCV     | 2020 |
+|      **BCMFP+SA-Gate**     |    77.9     |             |    52.4    |                  | RGBD  |                 |    ECCV     | 2020 |
 
 ### SUN RGB-D
 
@@ -148,6 +150,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |    **CANet-ResNet101**     |    81.9     |             |    47.7    |         |  RGB  |                  |   arXiv   | 2020 |
 | **RefineNet-Res152-Pool4** |    81.1     |    57.7     |     47     |         |  RGB  |                  |   TPAMI   | 2020 |
 |     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
+|     **BCMFP+SA-Gate**      |    82.5     |             |    49.4    |         | RGBD  |                  |    ECCV   | 2020 |
 
 ### 2D-3D-S
 
@@ -224,6 +227,9 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[CGBNet]** Ding, H., et al. (2020). Semantic Segmentation with Context Encoding and Multi-Path Decoding. IEEE Transactions on Image Processing 29: 3520-3533.
 - **[TSNet]** Zhou, W., et al. (2020). TSNet: Three-stream Self-attention Network for RGB-D Indoor Semantic Segmentation. IEEE Intelligent Systems.
 - **[PSD-ResNet50]** Zhou, L., et al. (2020). Pattern-Structure Diffusion for Multi-Task Learning. IEEE Conference on Computer Vision and Pattern Recognition.
+- **[Malleable 2.5D]** Xing, Y., et al. (2020). Malleable 2.5D Convolution: Learning Receptive Fields along the Depth-axis for RGB-D Scene Parsing. European Conference on Computer Vision.
+- **[BCMFP+SA-Gate]** Chen X., et al. (2020). Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation. European Conference on Computer Vision.
+
 ##
 
 ## Contact & Feedback
