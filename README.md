@@ -2,13 +2,14 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2020/08/03
+*Last updated: 2020/10/29
 
 #### Update log
 
 *2020/May* - update all of recent papers and make some diagram about history of RGBD semantic segmentation.  
 *2020/July* - update some recent papers (CVPR2020) of RGBD semantic segmentation.  
 *2020/August* - update some recent papers (ECCV2020) of RGBD semantic segmentation.  
+*2020/October* - update some recent papers (CVPR2020, WACV2020) of RGBD semantic segmentation.  
 
 ##
 
@@ -105,6 +106,8 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |                 |    CVPR     | 2020 |
 |     **Malleable 2.5D**     |    76.9     |             |    50.9    |                  | RGBD  |                 |    ECCV     | 2020 |
 |      **BCMFP+SA-Gate**     |    77.9     |             |    52.4    |                  | RGBD  |                 |    ECCV     | 2020 |
+|      **[VCD+RedNet]**      |             |    63.5     |    50.7    |                  | RGBD  |                 |    CVPR     | 2020 |
+|      **[VCD+ACNet]**       |             |    64.4     |    51.9    |                  | RGBD  |                 |    CVPR     | 2020 |
 
 ### SUN RGB-D
 
@@ -150,7 +153,11 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |    **CANet-ResNet101**     |    81.9     |             |    47.7    |         |  RGB  |                  |   arXiv   | 2020 |
 | **RefineNet-Res152-Pool4** |    81.1     |    57.7     |     47     |         |  RGB  |                  |   TPAMI   | 2020 |
 |     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
+|     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
 |     **BCMFP+SA-Gate**      |    82.5     |             |    49.4    |         | RGBD  |                  |    ECCV   | 2020 |
+|         **[QGN]**          |    82.4     |             |    45.4    |         | RGBD  |                  |    WACV   | 2020 |
+|      **[VCD+RedNet]**      |             |    62.9     |    50.3    |         | RGBD  |                  |    CVPR   | 2020 |
+|      **[VCD+ACNet]**       |             |    64.1     |    51.2    |         | RGBD  |                  |    CVPR   | 2020 |
 
 ### 2D-3D-S
 
@@ -229,6 +236,8 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[PSD-ResNet50]** Zhou, L., et al. (2020). Pattern-Structure Diffusion for Multi-Task Learning. IEEE Conference on Computer Vision and Pattern Recognition.
 - **[Malleable 2.5D]** Xing, Y., et al. (2020). Malleable 2.5D Convolution: Learning Receptive Fields along the Depth-axis for RGB-D Scene Parsing. European Conference on Computer Vision.
 - **[BCMFP+SA-Gate]** Chen X., et al. (2020). Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation. European Conference on Computer Vision.
+- **[QGN]** Kashyap C., et al. (2020). Quadtree Generating Networks: Efficient Hierarchical Scene Parsing with Sparse Convolutions. IEEE Winter Conference on Applications of Computer Vision.
+- **[VCD+RedNet/ACNet]** Xiong, Z.-T., et al. (2020). Variational Context-Deformable ConvNets for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition.
 
 ##
 
