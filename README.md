@@ -106,8 +106,8 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |                 |    CVPR     | 2020 |
 |     **Malleable 2.5D**     |    76.9     |             |    50.9    |                  | RGBD  |                 |    ECCV     | 2020 |
 |      **BCMFP+SA-Gate**     |    77.9     |             |    52.4    |                  | RGBD  |                 |    ECCV     | 2020 |
-|      **[VCD+RedNet]**      |             |    63.5     |    50.7    |                  | RGBD  |                 |    CVPR     | 2020 |
-|      **[VCD+ACNet]**       |             |    64.4     |    51.9    |                  | RGBD  |                 |    CVPR     | 2020 |
+|       **VCD+RedNet**       |             |    63.5     |    50.7    |                  | RGBD  |                 |    CVPR     | 2020 |
+|       **VCD+ACNet**        |             |    64.4     |    51.9    |                  | RGBD  |                 |    CVPR     | 2020 |
 
 ### SUN RGB-D
 
@@ -155,9 +155,9 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
 |     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
 |     **BCMFP+SA-Gate**      |    82.5     |             |    49.4    |         | RGBD  |                  |    ECCV   | 2020 |
-|         **[QGN]**          |    82.4     |             |    45.4    |         | RGBD  |                  |    WACV   | 2020 |
-|      **[VCD+RedNet]**      |             |    62.9     |    50.3    |         | RGBD  |                  |    CVPR   | 2020 |
-|      **[VCD+ACNet]**       |             |    64.1     |    51.2    |         | RGBD  |                  |    CVPR   | 2020 |
+|          **QGN**           |    82.4     |             |    45.4    |         | RGBD  |                  |    WACV   | 2020 |
+|       **VCD+RedNet**       |             |    62.9     |    50.3    |         | RGBD  |                  |    CVPR   | 2020 |
+|       **VCD+ACNet**        |             |    64.1     |    51.2    |         | RGBD  |                  |    CVPR   | 2020 |
 
 ### 2D-3D-S
 
