@@ -153,7 +153,6 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |    **CANet-ResNet101**     |    81.9     |             |    47.7    |         |  RGB  |                  |   arXiv   | 2020 |
 | **RefineNet-Res152-Pool4** |    81.1     |    57.7     |     47     |         |  RGB  |                  |   TPAMI   | 2020 |
 |     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
-|     **PSD-ResNet50**       |    84.0     |    57.3     |    50.6    |         |  RGB  |                  |    CVPR   | 2020 |
 |     **BCMFP+SA-Gate**      |    82.5     |             |    49.4    |         | RGBD  |                  |    ECCV   | 2020 |
 |          **QGN**           |    82.4     |             |    45.4    |         | RGBD  |                  |    WACV   | 2020 |
 |       **VCD+RedNet**       |             |    62.9     |    50.3    |         | RGBD  |                  |    CVPR   | 2020 |
