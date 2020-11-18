@@ -88,7 +88,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |      **DeepLab-LFOV**      |    70.3     |    49.6     |    39.4    |       54.7       | RGBD  |    **STD2P**    |    TPAMI    | 2018 |
 |      **D-depth-reg**       |    66.7     |    46.3     |    34.8    |       50.6       | RGBD  |                 |     PRL     | 2018 |
 |         **PU-Loop**        |    72.1     |             |    44.5    |                  |  RGB  |                 |    CVPR     | 2018 |
-|         **PU-Loop**        |    75.2     |    62.3     |    50.2    |                  |  RGB  |                 |    CVPR     | 2018 |
+|         **C-DCNN**         |     69      |    50.8     |    39.8    |                  |  RGB  |                 |    TNNLS    | 2018 |
 |          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  |                 |    CVPR     | 2019 |
 |         **CTS-IM**         |    76.3     |             |    50.6    |                  | RGBD  |                 |    ICIP     | 2019 |
 |          **PAP**           |    76.2     |    62.5     |    50.4    |                  |  RGB  |                 |    CVPR     | 2019 |
@@ -140,6 +140,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |     **G-FRNet-Res101**     |    75.3     |    47.5     |    36.9    |         |  RGB  |                  |   arXiv   | 2018 |
 |      **DeepLab-LFOV**      |    71.9     |    42.2     |    32.1    |         |  RGB  |                  |   TPAMI   | 2018 |
 |         **PU-Loop**        |    80.3     |             |    45.1    |         |  RGB  |                  |    CVPR   | 2018 |
+|         **C-DCNN**         |    77.3     |     50      |    39.4    |         |  RGB  |                  |    TNNLS  | 2018 |
 |          **GAD**           | ***85.5***  | ***74.9***  | ***54.5*** |         |  RGB  |                  |   CVPR    | 2019 |
 |     **KIL-ResNet101**      | <u>84.8</u> |     58      | <u>52</u>  |         |  RGB  |                  |   ACPR    | 2019 |
 |          **PAP**           |    83.8     |    58.4     |    50.5    |         |  RGB  |                  |   CVPR    | 2019 |
@@ -218,6 +219,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[DeepLab-LFOV]** Chen, L., et al. (2018). DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs. IEEE Transactions on Pattern Analysis and Machine Intelligence, 40(4), 834-848. [Paper](https://arxiv.org/pdf/1606.00915v2.pdf) [code](https://www.paperswithcode.com/paper/deeplab-semantic-image-segmentation-with-deep)
 - **[PU-Loop]** Kong, S. and C. Fowlkes (2018). Recurrent Scene Parsing with Perspective Understanding in the Loop. IEEE Conference on Computer Vision and Pattern Recognition: 956-965. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Kong_Recurrent_Scene_Parsing_CVPR_2018_paper.pdf) [[code]](https://github.com/aimerykong/Recurrent-Scene-Parsing-with-Perspective-Understanding-in-the-loop)
 - **[PAD-Net]** Xu, D., et al. (2018). PAD-Net: Multi-Tasks Guided Prediction-and-Distillation Network for Simultaneous Depth Estimation and Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition: 675-684. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_PAD-Net_Multi-Tasks_Guided_CVPR_2018_paper.pdf) [code]
+- **[C-DCNN]** Liu, J., et al. (2018)  Collaborative Deconvolutional Neural Networks for Joint Depth Estimation and Semantic Segmentation. IEEE Transactions on Neural Networks and Learning Systems 29(11): 5655-5666. [[Paper]](https://ieeexplore.ieee.org/document/8320527) [code]
 - **[EFCN-8s]** Shuai, B., et al. (2019). Toward Achieving Robust Low-Level and High-Level Scene Parsing. IEEE Transactions on Image Processing, 28(3), 1378-1390. [[Paper]](https://ieeexplore.ieee.org/document/8517116)  [[code]](https://github.com/henghuiding/EFCN)
 - **[3M2RNet]** Fooladgar, F., and Kasaei, S. (2019). 3M2RNet: Multi-Modal Multi-Resolution Refinement Network for Semantic Segmentation. Science and Information Conference: 544-557. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-17798-0_44) [code]
 - **[RFBNet]** Deng, L., et al. (2019). RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation. arXiv:1907.00135  [[Paper]](https://arxiv.org/pdf/1907.00135v1.pdf) [code]
