@@ -87,6 +87,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |      **DeepLab-LFOV**      |    70.3     |    49.6     |    39.4    |       54.7       | RGBD  |    **STD2P**    |    TPAMI    | 2018 |
 |      **D-depth-reg**       |    66.7     |    46.3     |    34.8    |       50.6       | RGBD  |                 |     PRL     | 2018 |
 |         **PU-Loop**        |    72.1     |             |    44.5    |                  |  RGB  |                 |    CVPR     | 2018 |
+|         **PU-Loop**        |    75.2     |    62.3     |    50.2    |                  |  RGB  |                 |    CVPR     | 2018 |
 |          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  |                 |    CVPR     | 2019 |
 |         **CTS-IM**         |    76.3     |             |    50.6    |                  | RGBD  |                 |    ICIP     | 2019 |
 |          **PAP**           |    76.2     |    62.5     |    50.4    |                  |  RGB  |                 |    CVPR     | 2019 |
@@ -106,8 +107,11 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |     **PSD-ResNet50**       |    77.0     |    58.6     |    51.0    |                  |  RGB  |                 |    CVPR     | 2020 |
 |     **Malleable 2.5D**     |    76.9     |             |    50.9    |                  | RGBD  |                 |    ECCV     | 2020 |
 |      **BCMFP+SA-Gate**     |    77.9     |             |    52.4    |                  | RGBD  |                 |    ECCV     | 2020 |
+|         **MTI-Net**        |    75.3     |    62.9     |    49.0    |                  |  RGB  |                 |    ECCV     | 2020 |
 |       **VCD+RedNet**       |             |    63.5     |    50.7    |                  | RGBD  |                 |    CVPR     | 2020 |
 |       **VCD+ACNet**        |             |    64.4     |    51.9    |                  | RGBD  |                 |    CVPR     | 2020 |
+|          **SANet**         |    75.9     |             |    50.7    |                  | RGB   |                 |    arXiv    | 2020 |
+|         **ESANet**         |             |             |    50.5    |                  | RGBD  |                 |    arXiv    | 2020 |
 
 ### SUN RGB-D
 
@@ -157,6 +161,8 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |          **QGN**           |    82.4     |             |    45.4    |         | RGBD  |                  |    WACV   | 2020 |
 |       **VCD+RedNet**       |             |    62.9     |    50.3    |         | RGBD  |                  |    CVPR   | 2020 |
 |       **VCD+ACNet**        |             |    64.1     |    51.2    |         | RGBD  |                  |    CVPR   | 2020 |
+|          **SANet**         |    82.3     |             |    51.5    |         | RGB   |                  |    arXiv  | 2020 |
+|         **ESANet**         |             |             |    48.3    |         | RGBD  |                  |    arXiv  | 2020 |
 
 ### 2D-3D-S
 
@@ -210,6 +216,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[TRL-ResNet50/101]** Zhang, Z., et al. (2018). Joint Task-Recursive Learning for Semantic Segmentation and Depth Estimation. European Conference on Computer Vision.
 - **[DeepLab-LFOV]** Chen, L., et al. (2018). DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs. IEEE Transactions on Pattern Analysis and Machine Intelligence, 40(4), 834-848.
 - **[PU-Loop]** Kong, S. and C. Fowlkes (2018). Recurrent Scene Parsing with Perspective Understanding in the Loop. IEEE Conference on Computer Vision and Pattern Recognition: 956-965.
+- **[PAD-Net]** Xu, D., et al. (2018). PAD-Net: Multi-Tasks Guided Prediction-and-Distillation Network for Simultaneous Depth Estimation and Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition: 675-684.
 - **[EFCN-8s]** Shuai, B., et al. (2019). Toward Achieving Robust Low-Level and High-Level Scene Parsing. IEEE Transactions on Image Processing, 28(3), 1378-1390.
 - **[3M2RNet]** Fooladgar, F., and Kasaei, S. (2019). 3M2RNet: Multi-Modal Multi-Resolution Refinement Network for Semantic Segmentation. Science and Information Conference: 544-557.
 - **[RFBNet]** Deng, L., et al. (2019). RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation. arXiv:1907.00135 
@@ -229,14 +236,17 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[SGNet]** Chen, L.-Z., et al. (2020). Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation. arXiv:2004.04534.
 - **[SCN-ResNet101]** Lin, D., et al. (2020). SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Cybernetics 50(3): 1120-1131.
 - **[RefineNet-Res152-Pool4]** Lin, G., et al. (2020). RefineNet: Multi-Path Refinement Networks for Dense Prediction. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(5): 1228-1242.
-- **[CANet-ResNet101]** Tang, Q., et al. (2020). Attention-guided Chained Context Aggregation for Semantic Segmentation. arXiv:2002.12041 
+- **[CANet-ResNet101]** Tang, Q., et al. (2020). Attention-guided Chained Context Aggregation for Semantic Segmentation. arXiv:2002.12041. 
 - **[CGBNet]** Ding, H., et al. (2020). Semantic Segmentation with Context Encoding and Multi-Path Decoding. IEEE Transactions on Image Processing 29: 3520-3533.
 - **[TSNet]** Zhou, W., et al. (2020). TSNet: Three-stream Self-attention Network for RGB-D Indoor Semantic Segmentation. IEEE Intelligent Systems.
 - **[PSD-ResNet50]** Zhou, L., et al. (2020). Pattern-Structure Diffusion for Multi-Task Learning. IEEE Conference on Computer Vision and Pattern Recognition.
 - **[Malleable 2.5D]** Xing, Y., et al. (2020). Malleable 2.5D Convolution: Learning Receptive Fields along the Depth-axis for RGB-D Scene Parsing. European Conference on Computer Vision.
 - **[BCMFP+SA-Gate]** Chen X., et al. (2020). Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation. European Conference on Computer Vision.
+- **[MTI-Net]** Vandenhende S., et al. (2020). MTI-Net: Multi-Scale Task Interaction Networks for Multi-Task Learning. European Conference on Computer Vision.
 - **[QGN]** Kashyap C., et al. (2020). Quadtree Generating Networks: Efficient Hierarchical Scene Parsing with Sparse Convolutions. IEEE Winter Conference on Applications of Computer Vision.
 - **[VCD+RedNet/ACNet]** Xiong, Z.-T., et al. (2020). Variational Context-Deformable ConvNets for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition.
+- **[SANet]** Yu, L., et al. (2020). Multi-layer Feature Aggregation for Deep Scene Parsing Models. arXiv:2011.02572.
+- **[ESANet]** Seichter, D., et al. (2020). Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis. arXiv:2011.06961.
 
 ##
 
