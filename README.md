@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2020/12/8
+*Last updated: 2020/12/14
 
 #### Update log
 
@@ -11,7 +11,7 @@ A paper list of RGBD semantic segmentation.
 *2020/August* - update some recent papers (ECCV2020) of RGBD semantic segmentation.  
 *2020/October* - update some recent papers (CVPR2020, WACV2020) of RGBD semantic segmentation.  
 *2020/November* - update some recent papers (ECCV2020, arXiv), the links of papers and codes for RGBD semantic segmentation.
-*2020/December* - update some recent papers (PAMI, PRL, arXiv) of RGBD semantic segmentation.
+*2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation.
 
 ##
 
@@ -117,6 +117,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |         **ESANet**         |             |             |    50.5    |                  | RGBD  |                 |    arXiv    | 2020 |
 |**Zig-Zag Net (ResNet152)** |    77.0     |    64.0     |    51.2    |                  | RGBD  |                 |    TPAMI    | 2020 |
 |        **MCN-DRM**         |             |    56.1     |    43.1    |                  | RGBD  |                 |    ICNSC    | 2020 |
+|         **CANet**          |    76.6     |    63.8     |    51.2    |                  | RGBD  |                 |    ACCV     | 2020 |
 
 ### SUN RGB-D
 
@@ -171,8 +172,9 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |         **ESANet**         |             |             |    48.3    |         | RGBD  |                  |    arXiv  | 2020 |
 |**Zig-Zag Net (ResNet152)** |    84.7     |    62.9     |    51.8    |         | RGBD  |                  |    TPAMI  | 2020 |
 |        **MCN-DRM**         |             |    54.6     |    42.8    |         | RGBD  |                  |    ICNSC  | 2020 |
+|         **CANet**          |    82.5     |    60.5     |    49.3    |         | RGBD  |                  |    ACCV   | 2020 |
 
-### 2D-3D-S
+### 2D-3D-S 
 
 |      Method      | PixAcc | mAcc | mIoU | f.w.IOU | Input |    Ref. from     | Published | Year |
 | :--------------: | :----: | :--: | :--: | :-----: | :---: | :--------------: | :-------: | ---- |
@@ -259,6 +261,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[ESANet]** Seichter, D., et al. (2020). Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis. arXiv:2011.06961. [[Paper]](https://arxiv.org/pdf/arXiv:2011.06961.pdf) [[Code]](https://github.com/TUI-NICR/ESANet)
 - **[Zig-Zag Net]** Lin, D., et al. (2020). Zig-Zag Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(10): 2642-2655. [[Paper]](https://ieeexplore.ieee.org/document/8738849) [[Code]](https://dilincv.github.io/)
 - **[MCN-DRM]** Zheng, Z., et al. (2020). Multi-resolution Cascaded Network with Depth-similar Residual Module for Real-time Semantic Segmentation on RGB-D Images.  IEEE International Conference on Networking, Sensing and Control (ICNSC). [[Paper]](https://ieeexplore.ieee.org/document/9238079) [Code]
+- **[CANet]** Zhou H., et al. (2020). RGB-D Co-attention Network for Semantic Segmentation. Asian Conference on Computer Vision. [[Paper]](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhou_RGB-D_Co-attention_Network_for_Semantic_Segmentation_ACCV_2020_paper.pdf) [Code]
 ##
 
 ## Contact & Feedback
