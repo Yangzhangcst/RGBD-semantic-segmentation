@@ -103,7 +103,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |      **MMAF-Net-152**      |    72.2     |    59.2     |    44.8    |                  | RGBD  |                 |    arXiv    | 2019 |
 |         **RTJ-AA**         |             |             |     42     |                  |  RGB  |                 |    ICRA     | 2019 |
 |      **JTRL-ResNet50**     |    81.3     |    60.0     |    50.3    |                  |  RGB  |                 |    TPAMI    | 2019 |
-|         **SGNet**          |    76.8     |    63.1     |     51     |                  | RGBD  |                 |    arXiv    | 2020 |
+|         **SGNet**          |    76.8     |    63.1     |     51     |                  | RGBD  |                 |     TIP     | 2020 |
 |     **SCN-ResNet101**      |             |             |    48.3    |                  | RGBD  |                 |    TCYB     | 2020 |
 | **RefineNet-Res152-Pool4** |    74.4     |    59.6     |    47.6    |                  |  RGB  |                 |    TPAMI    | 2020 |
 |         **TSNet**          |    73.5     |    59.6     |    46.1    |                  | RGBD  |                 |   IEEE IS   | 2020 |
@@ -159,7 +159,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 |         **DSNet**          |    75.6     |             |    32.1    |         |  RGB  |                  |  ICASSP   | 2019 |
 |      **JTRL-ResNet101**    |    84.8     |    59.1     |    50.8    |         |  RGB  |                  |   TPAMI   | 2019 |
 |     **SCN-ResNet152**      |             |             |    50.7    |         | RGBD  |                  |   TCYB    | 2020 |
-|         **SGNet**          |    81.8     |    60.9     |    48.5    |         | RGBD  |                  |   arXiv   | 2020 |
+|         **SGNet**          |    81.8     |    60.9     |    48.5    |         | RGBD  |                  |    TIP    | 2020 |
 |         **CGBNet**         |    82.3     |    61.3     |    48.2    |         |  RGB  |                  |    TIP    | 2020 |
 |    **CANet-ResNet101**     |    81.9     |             |    47.7    |         |  RGB  |                  |   arXiv   | 2020 |
 | **RefineNet-Res152-Pool4** |    81.1     |    57.7     |     47     |         |  RGB  |                  |   TPAMI   | 2020 |
@@ -245,7 +245,7 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[KIL-ResNet101]** Zhou, L., et al. (2019). KIL: Knowledge Interactiveness Learning for Joint Depth Estimation and Semantic Segmentation. Asian Conference on Pattern Recognition: 835-848. [Paper] [Code]
 - **[FDNet-16s]** Zhen, M., et al. (2019). Learning Fully Dense Neural Networks for Image Semantic Segmentation. The Thirty-Third AAAI Conference on Artificial Intelligence: 9283-9290. [[Paper]](https://arxiv.org/pdf/1905.08929.pdf) [Code]
 - **[JTRL-ResNet50/101]** Zhang, Z., et al. (2019). Joint Task-Recursive Learning for RGB-D Scene Understanding. IEEE Transactions on Pattern Analysis and Machine Intelligence. [[Paper]](https://ieeexplore.ieee.org/document/8758995) [Code]
-- **[SGNet]** Chen, L.-Z., et al. (2020). Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation. arXiv:2004.04534. [[Paper]](https://arxiv.org/pdf/2004.04534v1.pdf) [Code]
+- **[SGNet]** Chen, L.-Z., et al. (2020). Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation. IEEE Transactions on Image Processing. [[Paper]](https://arxiv.org/pdf/2004.04534v1.pdf) [Code]
 - **[SCN-ResNet101]** Lin, D., et al. (2020). SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Cybernetics 50(3): 1120-1131. [[Paper]](https://ieeexplore.ieee.org/document/8584494) [Code]
 - **[RefineNet-Res152-Pool4]** Lin, G., et al. (2020). RefineNet: Multi-Path Refinement Networks for Dense Prediction. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(5): 1228-1242. [[Paper]](https://ieeexplore.ieee.org/document/8618363/) [Code]
 - **[CANet-ResNet101]** Tang, Q., et al. (2020). Attention-guided Chained Context Aggregation for Semantic Segmentation. arXiv:2002.12041. [[Paper]](https://arxiv.org/pdf/2002.12041.pdf) [Code]
