@@ -12,7 +12,7 @@ A paper list of RGBD semantic segmentation.
 *2020/October* - update some recent papers (CVPR2020, WACV2020) of RGBD semantic segmentation.  
 *2020/November* - update some recent papers (ECCV2020, arXiv), the links of papers and codes for RGBD semantic segmentation.    
 *2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation.   
-*2021/January* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation. 
+*2021/February* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation. 
 
 ##
 
