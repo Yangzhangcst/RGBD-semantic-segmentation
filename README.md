@@ -11,8 +11,8 @@ A paper list of RGBD semantic segmentation.
 *2020/August* - update some recent papers (ECCV2020) of RGBD semantic segmentation.  
 *2020/October* - update some recent papers (CVPR2020, WACV2020) of RGBD semantic segmentation.  
 *2020/November* - update some recent papers (ECCV2020, arXiv), the links of papers and codes for RGBD semantic segmentation.    
-*2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation. 
-*2021/January* - update some recent papers (TMM, NIPS, arXiv) of RGBD semantic segmentation. 
+*2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation.   
+*2021/January* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation. 
 
 ##
 
@@ -119,6 +119,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |**Zig-Zag Net (ResNet152)** |    77.0     |    64.0     |    51.2    |                  | RGBD  |                 |    TPAMI    | 2020 |
 |        **MCN-DRM**         |             |    56.1     |    43.1    |                  | RGBD  |                 |    ICNSC    | 2020 |
 |         **CANet**          |    76.6     |    63.8     |    51.2    |                  | RGBD  |                 |    ACCV     | 2020 |
+|     **CEN(ResNet152)**     |    77.7     |    65.0     |    52.5    |                  | RGBD  |                 |   NeurIPS   | 2020 |
+|     **LWM(ResNet152)**     |    81.46    |    65.24    |    51.51   |                  | RGB   |                 |     TMM     | 2021 |
+|     **GLPNet(ResNet101)**  |    79.1     |    66.6     |    54.6    |                  | RGBD  |                 |    arXiv    | 2021 |
+| **ESOSD-Net(Xception-65)** |    73.3     |    64.7     |    45.0    |                  | RGB   |                 |    arXiv    | 2021 |
 
 ### SUN RGB-D
 
@@ -174,6 +178,9 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |**Zig-Zag Net (ResNet152)** |    84.7     |    62.9     |    51.8    |         | RGBD  |                  |    TPAMI  | 2020 |
 |        **MCN-DRM**         |             |    54.6     |    42.8    |         | RGBD  |                  |    ICNSC  | 2020 |
 |         **CANet**          |    82.5     |    60.5     |    49.3    |         | RGBD  |                  |    ACCV   | 2020 |
+|     **CEN(ResNet152)**     |    83.5     |    63.2     |    51.1    |         | RGBD  |                  |   NeurIPS | 2020 |
+|     **LWM(ResNet152)**     |    82.65    |    70.21    |    53.12   |         | RGB   |                  |    TMM    | 2021 |
+|    **GLPNet(ResNet101)**   |    82.8     |    63.3     |    51.2    |         | RGBD  |                  |    arXiv  | 2021 |
 
 ### 2D-3D-S 
 
@@ -266,7 +273,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[CEN]** Wang, Y., et al. (2020). Deep Multimodal Fusion by Channel Exchanging. 34th Conference on Neural Information Processing Systems [[Paper]](https://arxiv.org/pdf/arXiv:2011.05005.pdf) [[Code]](https://github.com/yikaiw/CEN)
 - **[LWM]** Gu, Z., et al. (2021). Hard Pixel Mining for Depth Privileged Semantic Segmentation. IEEE Transactions on Multimedia. [[Paper]](https://arxiv.org/pdf/1906.11437.pdf) [Code]
 - **[GLPNet]** Chen, S., et al. (2021). Global-Local Propagation Network for RGB-D Semantic Segmentation. arXiv:2101.10801. [[Paper]](https://arxiv.org/pdf/2101.10801.pdf) [Code]
-- **[SOSD-Net]** He, L., et al. (2021). SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images. arXiv:2101.07422. [[Paper]](https://arxiv.org/pdf/2101.07422.pdf) [Code]	
+- **[ESOSD-Net]** He, L., et al. (2021). SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images. arXiv:2101.07422. [[Paper]](https://arxiv.org/pdf/2101.07422.pdf) [Code]	
 ##
 
 ## Contact & Feedback
