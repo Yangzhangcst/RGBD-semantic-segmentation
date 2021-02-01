@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2020/12/14
+*Last updated: 2021/02/01
 
 #### Update log
 
@@ -12,6 +12,7 @@ A paper list of RGBD semantic segmentation.
 *2020/October* - update some recent papers (CVPR2020, WACV2020) of RGBD semantic segmentation.  
 *2020/November* - update some recent papers (ECCV2020, arXiv), the links of papers and codes for RGBD semantic segmentation.    
 *2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation. 
+*2021/January* - update some recent papers (TMM, NIPS, arXiv) of RGBD semantic segmentation. 
 
 ##
 
@@ -48,7 +49,7 @@ The papers related to metrics used mainly in RGBD semantic segmentation are as f
 
 ## Performance tables
 
-Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. We select four indexes namely PixAcc, mAcc, mIoU, and f.w.IOU to make comparison. The closer the segmentation result is to the ground truth, the higher the above four indexes are.
+Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. We select four indexes namely PixAcc, mAcc, mIoU, and f.w.IOU to make comparison. The closer the segmentation result is to the ground truth, the higher the above four indexes are.
 
 ### NYUDv2
 
@@ -262,6 +263,10 @@ Speed  is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard 
 - **[Zig-Zag Net]** Lin, D., et al. (2020). Zig-Zag Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(10): 2642-2655. [[Paper]](https://ieeexplore.ieee.org/document/8738849) [[Code]](https://dilincv.github.io/)
 - **[MCN-DRM]** Zheng, Z., et al. (2020). Multi-resolution Cascaded Network with Depth-similar Residual Module for Real-time Semantic Segmentation on RGB-D Images.  IEEE International Conference on Networking, Sensing and Control (ICNSC). [[Paper]](https://ieeexplore.ieee.org/document/9238079) [Code]
 - **[CANet]** Zhou H., et al. (2020). RGB-D Co-attention Network for Semantic Segmentation. Asian Conference on Computer Vision. [[Paper]](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhou_RGB-D_Co-attention_Network_for_Semantic_Segmentation_ACCV_2020_paper.pdf) [Code]
+- **[CEN]** Wang, Y., et al. (2020). Deep Multimodal Fusion by Channel Exchanging. 34th Conference on Neural Information Processing Systems [[Paper]](https://arxiv.org/pdf/arXiv:2011.05005.pdf) [[Code]](https://github.com/yikaiw/CEN)
+- **[LWM]** Gu, Z., et al. (2021). Hard Pixel Mining for Depth Privileged Semantic Segmentation. IEEE Transactions on Multimedia. [[Paper]](https://arxiv.org/pdf/1906.11437.pdf) [Code]
+- **[GLPNet]** Chen, S., et al. (2021). Global-Local Propagation Network for RGB-D Semantic Segmentation. arXiv:2101.10801. [[Paper]](https://arxiv.org/pdf/2101.10801.pdf) [Code]
+- **[SOSD-Net]** He, L., et al. (2021). SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images. arXiv:2101.07422. [[Paper]](https://arxiv.org/pdf/2101.07422.pdf) [Code]	
 ##
 
 ## Contact & Feedback
