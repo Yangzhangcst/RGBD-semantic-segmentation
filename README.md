@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2021/02/01
+*Last updated: 2021/04/09
 
 #### Update log
 
@@ -13,6 +13,7 @@ A paper list of RGBD semantic segmentation.
 *2020/November* - update some recent papers (ECCV2020, arXiv), the links of papers and codes for RGBD semantic segmentation.    
 *2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation.   
 *2021/February* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation. 
+*2021/April* - update some recent papers (CVPR2021, ICRA2021, IEEE SPL, arXiv) of RGBD semantic segmentation. 
 
 ##
 
@@ -115,14 +116,16 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |       **VCD+RedNet**       |             |    63.5     |    50.7    |                  | RGBD  |                 |    CVPR     | 2020 |
 |       **VCD+ACNet**        |             |    64.4     |    51.9    |                  | RGBD  |                 |    CVPR     | 2020 |
 |          **SANet**         |    75.9     |             |    50.7    |                  | RGB   |                 |    arXiv    | 2020 |
-|         **ESANet**         |             |             |    50.5    |                  | RGBD  |                 |    arXiv    | 2020 |
 |**Zig-Zag Net (ResNet152)** |    77.0     |    64.0     |    51.2    |                  | RGBD  |                 |    TPAMI    | 2020 |
 |        **MCN-DRM**         |             |    56.1     |    43.1    |                  | RGBD  |                 |    ICNSC    | 2020 |
 |         **CANet**          |    76.6     |    63.8     |    51.2    |                  | RGBD  |                 |    ACCV     | 2020 |
 |     **CEN(ResNet152)**     |    77.7     |    65.0     |    52.5    |                  | RGBD  |                 |   NeurIPS   | 2020 |
+|         **ESANet**         |             |             |    50.5    |                  | RGBD  |                 |    ICRA     | 2021 |
 |     **LWM(ResNet152)**     |    81.46    |    65.24    |    51.51   |                  | RGB   |                 |     TMM     | 2021 |
 |     **GLPNet(ResNet101)**  |    79.1     |    66.6     |    54.6    |                  | RGBD  |                 |    arXiv    | 2021 |
 | **ESOSD-Net(Xception-65)** |    73.3     |    64.7     |    45.0    |                  | RGB   |                 |    arXiv    | 2021 |
+|    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |                 |  IEEE SPL   | 2021 |
+|      **InverseForm**       |    78.1     |             |    53.1    |                  | RGB   |                 |    CVPR     | 2021 |
 
 ### SUN RGB-D
 
@@ -174,13 +177,14 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |       **VCD+RedNet**       |             |    62.9     |    50.3    |         | RGBD  |                  |    CVPR   | 2020 |
 |       **VCD+ACNet**        |             |    64.1     |    51.2    |         | RGBD  |                  |    CVPR   | 2020 |
 |          **SANet**         |    82.3     |             |    51.5    |         | RGB   |                  |    arXiv  | 2020 |
-|         **ESANet**         |             |             |    48.3    |         | RGBD  |                  |    arXiv  | 2020 |
 |**Zig-Zag Net (ResNet152)** |    84.7     |    62.9     |    51.8    |         | RGBD  |                  |    TPAMI  | 2020 |
 |        **MCN-DRM**         |             |    54.6     |    42.8    |         | RGBD  |                  |    ICNSC  | 2020 |
 |         **CANet**          |    82.5     |    60.5     |    49.3    |         | RGBD  |                  |    ACCV   | 2020 |
 |     **CEN(ResNet152)**     |    83.5     |    63.2     |    51.1    |         | RGBD  |                  |   NeurIPS | 2020 |
+|         **ESANet**         |             |             |    48.3    |         | RGBD  |                  |    ICRA   | 2021 |
 |     **LWM(ResNet152)**     |    82.65    |    70.21    |    53.12   |         | RGB   |                  |    TMM    | 2021 |
-|    **GLPNet(ResNet101)**   |    82.8     |    63.3     |    51.2    |         | RGBD  |                  |    arXiv  | 2021 |
+|    **GLPNet(ResNet101)**   |	  82.8     |    63.3     |	  51.2    |	        |	RGBD	|                  |	arXiv	   | 2021 |
+|    **NANet(ResNet101)**    |    82.3     |             |    48.8    |         | RGBD  |                  |  IEEE SPL | 2021 |
 
 ### 2D-3D-S 
 
@@ -266,14 +270,17 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[QGN]** Kashyap C., et al. (2020). Quadtree Generating Networks: Efficient Hierarchical Scene Parsing with Sparse Convolutions. IEEE Winter Conference on Applications of Computer Vision. [[Paper]](https://arxiv.org/pdf/1907.11821.pdf) [[Code]](https://github.com/kashyap7x/QGN)
 - **[VCD+RedNet/ACNet]** Xiong, Z.-T., et al. (2020). Variational Context-Deformable ConvNets for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xiong_Variational_Context-Deformable_ConvNets_for_Indoor_Scene_Parsing_CVPR_2020_paper.pdf) [Code]
 - **[SANet]** Yu, L., et al. (2020). Multi-layer Feature Aggregation for Deep Scene Parsing Models. arXiv:2011.02572. [[Paper]](https://arxiv.org/pdf/arXiv:2011.02572.pdf) [Code]
-- **[ESANet]** Seichter, D., et al. (2020). Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis. arXiv:2011.06961. [[Paper]](https://arxiv.org/pdf/arXiv:2011.06961.pdf) [[Code]](https://github.com/TUI-NICR/ESANet)
 - **[Zig-Zag Net]** Lin, D., et al. (2020). Zig-Zag Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(10): 2642-2655. [[Paper]](https://ieeexplore.ieee.org/document/8738849) [[Code]](https://dilincv.github.io/)
 - **[MCN-DRM]** Zheng, Z., et al. (2020). Multi-resolution Cascaded Network with Depth-similar Residual Module for Real-time Semantic Segmentation on RGB-D Images.  IEEE International Conference on Networking, Sensing and Control (ICNSC). [[Paper]](https://ieeexplore.ieee.org/document/9238079) [Code]
 - **[CANet]** Zhou H., et al. (2020). RGB-D Co-attention Network for Semantic Segmentation. Asian Conference on Computer Vision. [[Paper]](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhou_RGB-D_Co-attention_Network_for_Semantic_Segmentation_ACCV_2020_paper.pdf) [Code]
 - **[CEN]** Wang, Y., et al. (2020). Deep Multimodal Fusion by Channel Exchanging. 34th Conference on Neural Information Processing Systems [[Paper]](https://arxiv.org/pdf/arXiv:2011.05005.pdf) [[Code]](https://github.com/yikaiw/CEN)
+- **[ESANet]** Seichter, D., et al. (2021). Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis. IEEE International Conference on Robotics and Automation. [[Paper]](https://arxiv.org/pdf/arXiv:2011.06961.pdf) [[Code]](https://github.com/TUI-NICR/ESANet)
 - **[LWM]** Gu, Z., et al. (2021). Hard Pixel Mining for Depth Privileged Semantic Segmentation. IEEE Transactions on Multimedia. [[Paper]](https://arxiv.org/pdf/1906.11437.pdf) [Code]
 - **[GLPNet]** Chen, S., et al. (2021). Global-Local Propagation Network for RGB-D Semantic Segmentation. arXiv:2101.10801. [[Paper]](https://arxiv.org/pdf/2101.10801.pdf) [Code]
 - **[ESOSD-Net]** He, L., et al. (2021). SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation from Monocular images. arXiv:2101.07422. [[Paper]](https://arxiv.org/pdf/2101.07422.pdf) [Code]	
+- **[NANet]** Zhang, G., et al. (2021). Non-local Aggregation for RGB-D Semantic Segmentation. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/document/9380960) [Code]
+- **[ARLoss]** Cao, L., et al. (2021). Use square root affinity to regress labels in semantic segmentation. arXiv:2103.04990. [[Paper]](https://arxiv.org/pdf/2103.04990.pdf) [Code]	
+- **[InverseForm]** Borse, S., et al. (2021). InverseForm: A Loss Function for Structured Boundary-Aware Segmentation. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [Code]
 ##
 
 ## Contact & Feedback
