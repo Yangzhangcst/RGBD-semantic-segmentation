@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2021/04/09
+*Last updated: 2021/07/15
 
 #### Update log
 
