@@ -14,7 +14,7 @@ A paper list of RGBD semantic segmentation.
 *2020/December* - update some recent papers (PAMI, PRL, arXiv, ACCV) of RGBD semantic segmentation.   
 *2021/February* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation.  
 *2021/April* - update some recent papers (CVPR2021, ICRA2021, IEEE SPL, arXiv) of RGBD semantic segmentation. 
-
+*2021/July* - update some recent papers (CVPR2021, ICME2021, arXiv) of RGBD semantic segmentation.  
 
 ##
 
@@ -127,6 +127,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 | **ESOSD-Net(Xception-65)** |    73.3     |    64.7     |    45.0    |                  | RGB   |                 |    arXiv    | 2021 |
 |    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |                 |  IEEE SPL   | 2021 |
 |      **InverseForm**       |    78.1     |             |    53.1    |                  | RGB   |                 |    CVPR     | 2021 |
+|         **FSFNet**         |    77.9     |             |    52.0    |                  | RGBD  |                 |    ICME     | 2021 |
 
 ### SUN RGB-D
 
@@ -186,6 +187,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |     **LWM(ResNet152)**     |    82.65    |    70.21    |    53.12   |         | RGB   |                  |    TMM    | 2021 |
 |    **GLPNet(ResNet101)**   |	  82.8     |    63.3     |	  51.2    |	        |	RGBD	|                  |	arXiv	   | 2021 |
 |    **NANet(ResNet101)**    |    82.3     |             |    48.8    |         | RGBD  |                  |  IEEE SPL | 2021 |
+|         **FSFNet**         |    81.8     |             |    50.6    |         | RGBD  |                  |    ICME   | 2021 |
 
 ### 2D-3D-S 
 
@@ -282,10 +284,13 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[NANet]** Zhang, G., et al. (2021). Non-local Aggregation for RGB-D Semantic Segmentation. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/document/9380960) [Code]
 - **[ARLoss]** Cao, L., et al. (2021). Use square root affinity to regress labels in semantic segmentation. arXiv:2103.04990. [[Paper]](https://arxiv.org/pdf/2103.04990.pdf) [Code]	
 - **[InverseForm]** Borse, S., et al. (2021). InverseForm: A Loss Function for Structured Boundary-Aware Segmentation. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [Code]
+- **[FSFNet]** Su, Y., et al. (2021). Deep feature selection-and-fusion for RGB-D semantic segmentation. IEEE International Conference on Multimedia and Expo. [[Paper]](https://arxiv.org/pdf/2105.04102.pdf) [Code]
+- **[3D-to-2D]** Liu, Z., et al. (2021). 3D-to-2D Distillation for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [[Code]](https://github.com/liuzhengzhe/3D-to-2D-Distillation-for-Indoor-Scene-Parsing)
+- **[ATRC]** Bruggemann, D., et al. (2021). Exploring Relational Context for Multi-Task Dense Prediction. [[Paper]](https://arxiv.org/pdf/2104.13874.pdf) [Code]
 ##
 
 ## Contact & Feedback
 
 If you have any suggestions about this project, feel free to contact me.
 
-- [e-mail: yzhangcst[at]smail.nju.edu.cn]
+- [e-mail: yzhangcst[at]gmail.com]
