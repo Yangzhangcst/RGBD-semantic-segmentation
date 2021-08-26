@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2021/07/15
+*Last updated: 2021/08/26
 
 #### Update log
 
@@ -15,6 +15,7 @@ A paper list of RGBD semantic segmentation.
 *2021/February* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation.  
 *2021/April* - update some recent papers (CVPR2021, ICRA2021, IEEE SPL, arXiv) of RGBD semantic segmentation. 
 *2021/July* - update some recent papers (CVPR2021, ICME2021, arXiv) of RGBD semantic segmentation.  
+*2021/August* - update some recent papers (IJCV, arXiv) of RGBD semantic segmentation.  
 
 ##
 
@@ -128,6 +129,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |                 |  IEEE SPL   | 2021 |
 |      **InverseForm**       |    78.1     |             |    53.1    |                  | RGB   |                 |    CVPR     | 2021 |
 |         **FSFNet**         |    77.9     |             |    52.0    |                  | RGBD  |                 |    ICME     | 2021 |
+|         **[CSNet]**        |    77.5     |    63.6     |    51.5    |                  | RGBD  |                 | ISPRS JPRS  | 2021 | 
 
 ### SUN RGB-D
 
@@ -183,11 +185,13 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |        **MCN-DRM**         |             |    54.6     |    42.8    |         | RGBD  |                  |    ICNSC  | 2020 |
 |         **CANet**          |    82.5     |    60.5     |    49.3    |         | RGBD  |                  |    ACCV   | 2020 |
 |     **CEN(ResNet152)**     |    83.5     |    63.2     |    51.1    |         | RGBD  |                  |   NeurIPS | 2020 |
+|        **AdapNet++**       |             |             |    38.4    |         | RGBD  |                  |    IJCV   | 2020 |
 |         **ESANet**         |             |             |    48.3    |         | RGBD  |                  |    ICRA   | 2021 |
 |     **LWM(ResNet152)**     |    82.65    |    70.21    |    53.12   |         | RGB   |                  |    TMM    | 2021 |
 |    **GLPNet(ResNet101)**   |	  82.8     |    63.3     |	  51.2    |	        |	RGBD	|                  |	arXiv	   | 2021 |
 |    **NANet(ResNet101)**    |    82.3     |             |    48.8    |         | RGBD  |                  |  IEEE SPL | 2021 |
 |         **FSFNet**         |    81.8     |             |    50.6    |         | RGBD  |                  |    ICME   | 2021 |
+|         **[CSNet]**        |    82.0     |    63.1     |    52.8    |         | RGBD  |                  |ISPRS JPRS | 2021 | 
 
 ### 2D-3D-S 
 
@@ -277,6 +281,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[MCN-DRM]** Zheng, Z., et al. (2020). Multi-resolution Cascaded Network with Depth-similar Residual Module for Real-time Semantic Segmentation on RGB-D Images.  IEEE International Conference on Networking, Sensing and Control (ICNSC). [[Paper]](https://ieeexplore.ieee.org/document/9238079) [Code]
 - **[CANet]** Zhou H., et al. (2020). RGB-D Co-attention Network for Semantic Segmentation. Asian Conference on Computer Vision. [[Paper]](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhou_RGB-D_Co-attention_Network_for_Semantic_Segmentation_ACCV_2020_paper.pdf) [Code]
 - **[CEN]** Wang, Y., et al. (2020). Deep Multimodal Fusion by Channel Exchanging. 34th Conference on Neural Information Processing Systems [[Paper]](https://arxiv.org/pdf/arXiv:2011.05005.pdf) [[Code]](https://github.com/yikaiw/CEN)
+- **[AdapNet++]** Valada, A., et al. (2020). Self-Supervised Model Adaptation for Multimodal Semantic Segmentation. International Journal of Computer Vision [[Paper]](https://arxiv.org/pdf/arXiv:1808.03833.pdf) [[Code]](https://github.com/DeepSceneSeg)
 - **[ESANet]** Seichter, D., et al. (2021). Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis. IEEE International Conference on Robotics and Automation. [[Paper]](https://arxiv.org/pdf/arXiv:2011.06961.pdf) [[Code]](https://github.com/TUI-NICR/ESANet)
 - **[LWM]** Gu, Z., et al. (2021). Hard Pixel Mining for Depth Privileged Semantic Segmentation. IEEE Transactions on Multimedia. [[Paper]](https://arxiv.org/pdf/1906.11437.pdf) [Code]
 - **[GLPNet]** Chen, S., et al. (2021). Global-Local Propagation Network for RGB-D Semantic Segmentation. arXiv:2101.10801. [[Paper]](https://arxiv.org/pdf/2101.10801.pdf) [Code]
@@ -286,7 +291,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[InverseForm]** Borse, S., et al. (2021). InverseForm: A Loss Function for Structured Boundary-Aware Segmentation. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [Code]
 - **[FSFNet]** Su, Y., et al. (2021). Deep feature selection-and-fusion for RGB-D semantic segmentation. IEEE International Conference on Multimedia and Expo. [[Paper]](https://arxiv.org/pdf/2105.04102.pdf) [Code]
 - **[3D-to-2D]** Liu, Z., et al. (2021). 3D-to-2D Distillation for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [[Code]](https://github.com/liuzhengzhe/3D-to-2D-Distillation-for-Indoor-Scene-Parsing)
-- **[ATRC]** Bruggemann, D., et al. (2021). Exploring Relational Context for Multi-Task Dense Prediction. [[Paper]](https://arxiv.org/pdf/2104.13874.pdf) [Code]
+- **[ATRC]** Bruggemann, D., et al. (2021). Exploring Relational Context for Multi-Task Dense Prediction. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2104.13874.pdf) [Code]
+- **[CSNet]** Huan L., et al. (2021). Learning deep cross-scale feature propagation for indoor semantic segmentation. ISPRS Journal of Photogrammetry and Remote Sensing [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000940) [Code]
 ##
 
 ## Contact & Feedback
