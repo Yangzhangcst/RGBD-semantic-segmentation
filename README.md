@@ -15,7 +15,7 @@ A paper list of RGBD semantic segmentation.
 *2021/February* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation.  
 *2021/April* - update some recent papers (CVPR2021, ICRA2021, IEEE SPL, arXiv) of RGBD semantic segmentation. 
 *2021/July* - update some recent papers (CVPR2021, ICME2021, arXiv) of RGBD semantic segmentation.  
-*2021/August* - update some recent papers (IJCV, arXiv) of RGBD semantic segmentation.  
+*2021/August* - update some recent papers (IJCV, ICCV2021, arXiv) of RGBD semantic segmentation.  
 
 ##
 
@@ -129,7 +129,9 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |    **NANet(ResNet101)**    |    77.9     |             |    52.3    |                  | RGBD  |                 |  IEEE SPL   | 2021 |
 |      **InverseForm**       |    78.1     |             |    53.1    |                  | RGB   |                 |    CVPR     | 2021 |
 |         **FSFNet**         |    77.9     |             |    52.0    |                  | RGBD  |                 |    ICME     | 2021 |
-|         **[CSNet]**        |    77.5     |    63.6     |    51.5    |                  | RGBD  |                 | ISPRS JPRS  | 2021 | 
+|          **CSNet**         |    77.5     |    63.6     |    51.5    |                  | RGBD  |                 | ISPRS JPRS  | 2021 | 
+|        **ShapeConv**       |    75.8     |    62.8     |    50.2    |       62.6       | RGBD  |                 |    ICCV     | 2021 | 
+|         **CI-Net**         |    72.7     |             |    42.6    |                  | RGB   |                 |    arXiv    | 2021 | 
 
 ### SUN RGB-D
 
@@ -191,7 +193,9 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |    **GLPNet(ResNet101)**   |	  82.8     |    63.3     |	  51.2    |	        |	RGBD	|                  |	arXiv	   | 2021 |
 |    **NANet(ResNet101)**    |    82.3     |             |    48.8    |         | RGBD  |                  |  IEEE SPL | 2021 |
 |         **FSFNet**         |    81.8     |             |    50.6    |         | RGBD  |                  |    ICME   | 2021 |
-|         **[CSNet]**        |    82.0     |    63.1     |    52.8    |         | RGBD  |                  |ISPRS JPRS | 2021 | 
+|          **CSNet**         |    82.0     |    63.1     |    52.8    |         | RGBD  |                  |ISPRS JPRS | 2021 | 
+| **ShapeConv(ResNet101)**   |    82.0     |    58.5     |    47.6    |  71.2   | RGBD  |                  |    ICCV   | 2021 | 
+|         **CI-Net**         |    80.7     |             |    44.3    |         | RGB   |                  |    arXiv  | 2021 | 
 
 ### 2D-3D-S 
 
@@ -293,6 +297,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[3D-to-2D]** Liu, Z., et al. (2021). 3D-to-2D Distillation for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [[Code]](https://github.com/liuzhengzhe/3D-to-2D-Distillation-for-Indoor-Scene-Parsing)
 - **[ATRC]** Bruggemann, D., et al. (2021). Exploring Relational Context for Multi-Task Dense Prediction. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2104.13874.pdf) [Code]
 - **[CSNet]** Huan L., et al. (2021). Learning deep cross-scale feature propagation for indoor semantic segmentation. ISPRS Journal of Photogrammetry and Remote Sensing [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000940) [Code]
+- **[ShapeConv]** Cao J., et al. (2021). ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2108.10528.pdf) [Code](https://github.com/hanchaoleng/ShapeConv)
+- **[CI-Net]** Gao T., et al. (2021). CI-Net: Contextual Information for Joint Semantic Segmentation and Depth Estimation. arXiv:2107.13800 [[Paper]](https://arxiv.org/pdf/2107.13800.pdf)
+- **[UMT]** Du C., et al. (2021). Improving Multi-Modal Learning with Uni-Modal Teachers. arXiv:2106.11059 [[Paper]](https://arxiv.org/pdf/2106.11059.pdf)
+
 ##
 
 ## Contact & Feedback
