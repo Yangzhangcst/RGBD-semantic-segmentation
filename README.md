@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2021/08/26
+*Last updated: 2021/08/31
 
 #### Update log
 
@@ -95,7 +95,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |      **D-depth-reg**       |    66.7     |    46.3     |    34.8    |       50.6       | RGBD  |                 |     PRL     | 2018 |
 |         **PU-Loop**        |    72.1     |             |    44.5    |                  |  RGB  |                 |    CVPR     | 2018 |
 |         **C-DCNN**         |     69      |    50.8     |    39.8    |                  |  RGB  |                 |    TNNLS    | 2018 |
-|          **GAD**           | ***84.8***  | ***68.7***  | ***59.6*** |                  |  RGB  |                 |    CVPR     | 2019 |
+|          **GAD**           |    84.8     |    68.7     |    59.6    |                  |  RGB  |                 |    CVPR     | 2019 |
 |         **CTS-IM**         |    76.3     |             |    50.6    |                  | RGBD  |                 |    ICIP     | 2019 |
 |          **PAP**           |    76.2     |    62.5     |    50.4    |                  |  RGB  |                 |    CVPR     | 2019 |
 |     **KIL-ResNet101**      |    75.1     |    58.4     |    50.2    |                  |  RGB  |                 |    ACPR     | 2019 |
@@ -107,6 +107,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |      **MMAF-Net-152**      |    72.2     |    59.2     |    44.8    |                  | RGBD  |                 |    arXiv    | 2019 |
 |         **RTJ-AA**         |             |             |     42     |                  |  RGB  |                 |    ICRA     | 2019 |
 |      **JTRL-ResNet50**     |    81.3     |    60.0     |    50.3    |                  |  RGB  |                 |    TPAMI    | 2019 |
+|         **3DN-Conv**       |    52.4     |             |    39.3    |                  |  RGB  |                 |     3DV     | 2019 |
 |         **SGNet**          |    76.8     |    63.1     |     51     |                  | RGBD  |                 |     TIP     | 2020 |
 |     **SCN-ResNet101**      |             |             |    48.3    |                  | RGBD  |                 |    TCYB     | 2020 |
 | **RefineNet-Res152-Pool4** |    74.4     |    59.6     |    47.6    |                  |  RGB  |                 |    TPAMI    | 2020 |
@@ -268,6 +269,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[KIL-ResNet101]** Zhou, L., et al. (2019). KIL: Knowledge Interactiveness Learning for Joint Depth Estimation and Semantic Segmentation. Asian Conference on Pattern Recognition: 835-848. [Paper] [Code]
 - **[FDNet-16s]** Zhen, M., et al. (2019). Learning Fully Dense Neural Networks for Image Semantic Segmentation. The Thirty-Third AAAI Conference on Artificial Intelligence: 9283-9290. [[Paper]](https://arxiv.org/pdf/1905.08929.pdf) [Code]
 - **[JTRL-ResNet50/101]** Zhang, Z., et al. (2019). Joint Task-Recursive Learning for RGB-D Scene Understanding. IEEE Transactions on Pattern Analysis and Machine Intelligence. [[Paper]](https://ieeexplore.ieee.org/document/8758995) [Code]
+- **[3DN-Conv]** Chen, Y., et al. (2019). 3D Neighborhood Convolution: Learning Depth-Aware Features for RGB-D and RGB Semantic Segmentation.  International Conference on 3D Vision. [[Paper]](https://arxiv.org/pdf/1910.01460.pdf) [Code]
 - **[SGNet]** Chen, L.-Z., et al. (2020). Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation. IEEE Transactions on Image Processing. [[Paper]](https://arxiv.org/pdf/2004.04534v1.pdf) [[Code]](https://github.com/LinZhuoChen/SGNet)
 - **[SCN-ResNet101]** Lin, D., et al. (2020). SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images. IEEE Transactions on Cybernetics 50(3): 1120-1131. [[Paper]](https://ieeexplore.ieee.org/document/8584494) [Code]
 - **[RefineNet-Res152-Pool4]** Lin, G., et al. (2020). RefineNet: Multi-Path Refinement Networks for Dense Prediction. IEEE Transactions on Pattern Analysis and Machine Intelligence 42(5): 1228-1242. [[Paper]](https://ieeexplore.ieee.org/document/8618363/) [Code]
