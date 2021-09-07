@@ -133,8 +133,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **CSNet**         |    77.5     |    63.6     |    51.5    |                  | RGBD  |                 | ISPRS JPRS  | 2021 | 
 |        **ShapeConv**       |    75.8     |    62.8     |    50.2    |       62.6       | RGBD  |                 |    ICCV     | 2021 | 
 |         **CI-Net**         |    72.7     |             |    42.6    |                  | RGB   |                 |    arXiv    | 2021 | 
+|         **RGBxD**          |    76.7     |    63.5     |    51.1    |                  | RGBD  |                 | Neurocomput.| 2021 |
+|     **TCD(ResNet101)**     |    77.8     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
 
-### SUN RGB-D
+### SUN RGB-D 
 
 |           Method           |   PixAcc    |    mAcc     |    mIoU    | f.w.IOU | Input |     Ref. from    | Published | Year |
 | :------------------------: | :---------: | :---------: | :--------: | :-----: | :---: | :--------------: | :-------: | ---- |
@@ -197,6 +199,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **CSNet**         |    82.0     |    63.1     |    52.8    |         | RGBD  |                  |ISPRS JPRS | 2021 | 
 | **ShapeConv(ResNet101)**   |    82.0     |    58.5     |    47.6    |  71.2   | RGBD  |                  |    ICCV   | 2021 | 
 |         **CI-Net**         |    80.7     |             |    44.3    |         | RGB   |                  |    arXiv  | 2021 | 
+|         **RGBxD**          |    81.7     |    58.8     |    47.7    |         | RGBD  |                | Neurocomput.| 2021 |
+|     **TCD(ResNet101)**     |    83.1     |             |    49.5    |         | RGBD  |                  |  IEEE SPL | 2021 |
 
 ### 2D-3D-S 
 
@@ -302,6 +306,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[ShapeConv]** Cao J., et al. (2021). ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2108.10528.pdf) [Code](https://github.com/hanchaoleng/ShapeConv)
 - **[CI-Net]** Gao T., et al. (2021). CI-Net: Contextual Information for Joint Semantic Segmentation and Depth Estimation. arXiv:2107.13800 [[Paper]](https://arxiv.org/pdf/2107.13800.pdf)
 - **[UMT]** Du C., et al. (2021). Improving Multi-Modal Learning with Uni-Modal Teachers. arXiv:2106.11059 [[Paper]](https://arxiv.org/pdf/2106.11059.pdf)
+- **[RGBxD]** Cao J., et al. (2021). RGBxD: Learning depth-weighted RGB patches for RGB-D indoorsemantic segmentation. Neurocomputing [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231221011930?via%3Dihub)
+- **[TCD]** Yue Y., et al. (2021). Two-Stage Cascaded Decoder for Semantic Segmentation of RGB-D Images. IEEE Signal Processing Letters [[Paper]](https://ieeexplore.ieee.org/abstract/document/9444207)
 
 ##
 
