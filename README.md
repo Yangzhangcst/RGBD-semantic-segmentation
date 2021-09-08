@@ -15,7 +15,7 @@ A paper list of RGBD semantic segmentation.
 *2021/February* - update some recent papers (TMM, NeurIPS, arXiv) of RGBD semantic segmentation.  
 *2021/April* - update some recent papers (CVPR2021, ICRA2021, IEEE SPL, arXiv) of RGBD semantic segmentation. 
 *2021/July* - update some recent papers (CVPR2021, ICME2021, arXiv) of RGBD semantic segmentation.  
-*2021/August* - update some recent papers (IJCV, ICCV2021, arXiv) of RGBD semantic segmentation.  
+*2021/August* - update some recent papers (IJCV, ICCV2021, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 
 ##
 
