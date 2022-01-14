@@ -139,6 +139,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |       **RAFNet-50**        |    73.8     |    60.3     |    47.5    |                  | RGBD  |                 |   Displays  | 2021 |
 |        **RTLNet**          |    77.7     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
 |    **CANet(ResNet101)**    |    77.1     |    64.6     |    51.5    |                  | RGBD  |                 |      PR     | 2022 |
+|    **ADSD(ResNet50)**      |    77.5     |    65.3     |    52.5    |                  | RGBD  |                 |     arXiv   | 2022 |
 
 ### SUN RGB-D 
 
@@ -209,7 +210,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |        **GRBNet**          |    81.3     |             |    45.7    |         | RGBD  |                  |    TITS   | 2021 |
 |        **RTLNet**          |    81.3     |             |    45.7    |         | RGBD  |                  |  IEEE SPL | 2021 |
 |   **CANet(ResNet101)**     |    85.2     |             |    50.6    |         | RGBD  |                  |     PR    | 2022 |
-
+|    **ADSD(ResNet50)**      |    81.8     |     62.1    |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
 
 ### 2D-3D-S 
 
@@ -324,7 +325,19 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[GRBNet]** Zhou W., et al. (2021). Gated-Residual Block for Semantic Segmentation Using RGB-D Data. IEEE Transactions on Intelligent Transportation Systems. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9529067) [Code]
 - **[RTLNet]** Zhou W., et al. (2021). RTLNet: Recursive Triple-Path Learning Network for Scene Parsing of RGB-D Images. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9667195) [Code]
 - **[CANet]** Zhou H., et al. (2022). CANet: Co-attention network for RGB-D semantic segmentation. Pattern Recognition. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320321006440?via%3Dihub) [Code]
+- **[ADSD]** Zhang Y., et al. (2022). Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation. arXiv:2201.01427 [[Paper]](https://arxiv.org/pdf/2201.01427.pdf)
 
+## Citing
+If you find this repository useful in your research, please consider citing:
+```
+@ARTICLE{ADSD2022,  
+  author={Y. {Zhang} and Y. {Yang} and  C. {Chen} and G. {Sun} and Y. {Guo}},  
+  booktitle={Computational Visual Media Conference},   
+  title={Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation},   
+  year={2022}，  
+  pages={1-12}
+  }
+```
 
 ## Contact & Feedback
 
