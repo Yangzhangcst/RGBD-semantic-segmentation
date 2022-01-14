@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2021/08/31
+*Last updated: 2022/01/14
 
 #### Update log
 
@@ -16,6 +16,7 @@ A paper list of RGBD semantic segmentation.
 *2021/April* - update some recent papers (CVPR2021, ICRA2021, IEEE SPL, arXiv) of RGBD semantic segmentation. 
 *2021/July* - update some recent papers (CVPR2021, ICME2021, arXiv) of RGBD semantic segmentation.  
 *2021/August* - update some recent papers (IJCV, ICCV2021, IEEE SPL, arXiv) of RGBD semantic segmentation.  
+*2022/January* - update some recent papers (TITS, PR, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 
 ##
 
@@ -135,6 +136,9 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |         **CI-Net**         |    72.7     |             |    42.6    |                  | RGB   |                 |    arXiv    | 2021 | 
 |         **RGBxD**          |    76.7     |    63.5     |    51.1    |                  | RGBD  |                 | Neurocomput.| 2021 |
 |     **TCD(ResNet101)**     |    77.8     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
+|       **RAFNet-50**        |    73.8     |    60.3     |    47.5    |                  | RGBD  |                 |   Displays  | 2021 |
+|        **RTLNet**          |    77.7     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
+|    **CANet(ResNet101)**    |    77.1     |    64.6     |    51.5    |                  | RGBD  |                 |      PR     | 2022 |
 
 ### SUN RGB-D 
 
@@ -201,6 +205,11 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |         **CI-Net**         |    80.7     |             |    44.3    |         | RGB   |                  |    arXiv  | 2021 | 
 |         **RGBxD**          |    81.7     |    58.8     |    47.7    |         | RGBD  |                | Neurocomput.| 2021 |
 |     **TCD(ResNet101)**     |    83.1     |             |    49.5    |         | RGBD  |                  |  IEEE SPL | 2021 |
+|       **RAFNet-50**        |    81.3     |    59.4     |    47.2    |         | RGBD  |                  |   Displays| 2021 |
+|        **GRBNet**          |    81.3     |             |    45.7    |         | RGBD  |                  |    TITS   | 2021 |
+|        **RTLNet**          |    81.3     |             |    45.7    |         | RGBD  |                  |  IEEE SPL | 2021 |
+|   **CANet(ResNet101)**     |    85.2     |             |    50.6    |         | RGBD  |                  |     PR    | 2022 |
+
 
 ### 2D-3D-S 
 
@@ -304,13 +313,18 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 - **[3D-to-2D]** Liu, Z., et al. (2021). 3D-to-2D Distillation for Indoor Scene Parsing. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2104.02745.pdf) [[Code]](https://github.com/liuzhengzhe/3D-to-2D-Distillation-for-Indoor-Scene-Parsing)
 - **[ATRC]** Bruggemann, D., et al. (2021). Exploring Relational Context for Multi-Task Dense Prediction. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2104.13874.pdf) [Code]
 - **[CSNet]** Huan L., et al. (2021). Learning deep cross-scale feature propagation for indoor semantic segmentation. ISPRS Journal of Photogrammetry and Remote Sensing [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000940) [Code]
-- **[ShapeConv]** Cao J., et al. (2021). ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2108.10528.pdf) [Code](https://github.com/hanchaoleng/ShapeConv)
+- **[ShapeConv]** Cao J., et al. (2021). ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation. International Conference on Computer Vision [[Paper]](https://arxiv.org/pdf/2108.10528.pdf) [[Code]](https://github.com/hanchaoleng/ShapeConv)
 - **[CI-Net]** Gao T., et al. (2021). CI-Net: Contextual Information for Joint Semantic Segmentation and Depth Estimation. arXiv:2107.13800 [[Paper]](https://arxiv.org/pdf/2107.13800.pdf)
 - **[UMT]** Du C., et al. (2021). Improving Multi-Modal Learning with Uni-Modal Teachers. arXiv:2106.11059 [[Paper]](https://arxiv.org/pdf/2106.11059.pdf)
 - **[RGBxD]** Cao J., et al. (2021). RGBxD: Learning depth-weighted RGB patches for RGB-D indoorsemantic segmentation. Neurocomputing [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231221011930?via%3Dihub)
 - **[TCD]** Yue Y., et al. (2021). Two-Stage Cascaded Decoder for Semantic Segmentation of RGB-D Images. IEEE Signal Processing Letters [[Paper]](https://ieeexplore.ieee.org/abstract/document/9444207)
+- **[RAFNet]** Yan X., et al. (2021). RAFNet: RGB-D attention feature fusion network for indoor semantic segmentation. Displays. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0141938221000883?via%3Dihub) [Code]
+- **[MAMD]** RazzaghiYan P., et al. (2021). Modality adaptation in multimodal data. Expert Systems with Applications.[[Paper]](https://www.sciencedirect.com/science/article/pii/S0957417421005674) [Code]
+- **[FuseNet-3DEF]** Terreran M., et al. (2022). Light deep learning models enriched with Entangled features for RGB-D semantic segmentation. Robotics and Autonomous Systems. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0921889021001470) [Code]
+- **[GRBNet]** Zhou W., et al. (2021). Gated-Residual Block for Semantic Segmentation Using RGB-D Data. IEEE Transactions on Intelligent Transportation Systems. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9529067) [Code]
+- **[RTLNet]** Zhou W., et al. (2021). RTLNet: Recursive Triple-Path Learning Network for Scene Parsing of RGB-D Images. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9667195) [Code]
+- **[CANet]** Zhou H., et al. (2022). CANet: Co-attention network for RGB-D semantic segmentation. Pattern Recognition. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320321006440?via%3Dihub) [Code]
 
-##
 
 ## Contact & Feedback
 
