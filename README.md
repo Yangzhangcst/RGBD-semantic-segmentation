@@ -230,7 +230,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 https://www.cityscapes-dataset.com/benchmarks/
 
 ### ScanNet
-http://kaldir.vc.in.tum.de/scannet_benchmark/(2D Semantic label benchmark)
+http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 
 ##
 
