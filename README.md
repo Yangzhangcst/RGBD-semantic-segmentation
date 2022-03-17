@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2022/01/14
+*Last updated: 2022/03/17
 
 #### Update log
 
@@ -17,6 +17,7 @@ A paper list of RGBD semantic segmentation.
 *2021/July* - update some recent papers (CVPR2021, ICME2021, arXiv) of RGBD semantic segmentation.  
 *2021/August* - update some recent papers (IJCV, ICCV2021, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 *2022/January* - update some recent papers (TITS, PR, IEEE SPL, arXiv) of RGBD semantic segmentation.  
+*2022/March* - update benchmark results on Cityscapes and ScanNet datasets.  
 
 ##
 
@@ -36,6 +37,8 @@ The papers related to datasets used mainly in natural/color image segmentation a
 - **[`[NYUDv2]`](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)** The NYU-Depth V2 dataset consists of 1449 RGB-D images showing interior scenes, which all labels are  usually mapped to 40 classes. The standard training and test set contain 795 and 654 images, respectively.
 - **[`[SUN RGB-D]`](http://rgbd.cs.princeton.edu)** The SUN RGB-D dataset contains 10,335 RGBD images with semantic labels organized in 37 categories. The 5,285 images are used for training, and 5050 images are used for testing.
 - **[`[2D-3D-S]`](http://buildingparser.stanford.edu/dataset.html)** Stanford-2D-3D-Semantic dataset contains 70496 RGB and depth images as well as 2D annotation with 13 object categories. Areas 1, 2, 3, 4, and 6 are utilized as the training and Area 5 is used as the testing set.
+- **[`[Cityscapes]`](https://www.cityscapes-dataset.com/)** Cityscapes contains a diverse set of stereo video sequences recorded in street scenes from 50 different cities, with high quality pixel-level annotations of 5 000 frames in addition to a larger set of 20 000 weakly annotated frames.
+- **[`[ScanNet]`](http://www.scan-net.org/)** ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations. 
 
 ##
 
@@ -222,6 +225,12 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |   **PU-Loop**    |  91.0  |      | 76.5 |         |  RGB  |                  |    CVPR   | 2018 |
 | **MMAF-Net-152** |  76.5  | 62.3 | 52.9 |         | RGBD  |                  |   arXiv   | 2019 |
 |   **3M2RNet**    |  79.8  | 75.2 |  63  |         | RGBD  |                  |    SIC    | 2019 |
+
+### Cityscapes
+https://www.cityscapes-dataset.com/benchmarks/
+
+### ScanNet
+http://kaldir.vc.in.tum.de/scannet_benchmark/(2D Semantic label benchmark)
 
 ##
 
