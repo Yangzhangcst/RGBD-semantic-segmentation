@@ -342,6 +342,7 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[HS3]** Borse S., et al. (2021). HS3: Learning with Proper Task Complexity in Hierarchically Supervised Semantic Segmentation.  British Machine Vision Conference [[Paper]](https://arxiv.org/pdf/2111.02333.pdf) [Code]
 - **[InvPT]** Ye H., et al. (2022). Inverted Pyramid Multi-task Transformer for Dense Scene Understanding.  arXiv:2203.07997 [[Paper]](https://arxiv.org/pdf/2203.07997.pdf) [Code]
 - **[InvPT]** Zhou W., et al. (2022). PGDENet: Progressive Guided Fusion and Depth Enhancement Network for RGB-D Indoor Scene Parsing. IEEE Transactions on Multimedia  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9740493/) [Code]
+- **[CMX]** Liu X., et al. (2022). CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers. arXiv:2203.04838 [[Paper]](https://arxiv.org/pdf/2203.04838.pdf) [[Code]](https://github.com/huaaaliu/RGBX_Semantic_Segmentation)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
