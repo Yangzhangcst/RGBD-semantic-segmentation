@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2022/03/17
+*Last updated: 2022/04/12
 
 #### Update log
 
@@ -141,8 +141,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |     **TCD(ResNet101)**     |    77.8     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
 |       **RAFNet-50**        |    73.8     |    60.3     |    47.5    |                  | RGBD  |                 |   Displays  | 2021 |
 |        **RTLNet**          |    77.7     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
+|        **H3S-Fuse**        |    78.3     |             |    53.5    |                  | RGB   |                 |     BMVC    | 2021 |
 |    **CANet(ResNet101)**    |    77.1     |    64.6     |    51.5    |                  | RGBD  |                 |      PR     | 2022 |
 |    **ADSD(ResNet50)**      |    77.5     |    65.3     |    52.5    |                  | RGBD  |                 |     arXiv   | 2022 |
+|         **InvPT**          |             |             |    53.56   |                  | RGB   |                 |     arXiv   | 2022 |
 
 ### SUN RGB-D 
 
@@ -335,6 +337,8 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[RTLNet]** Zhou W., et al. (2021). RTLNet: Recursive Triple-Path Learning Network for Scene Parsing of RGB-D Images. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9667195) [Code]
 - **[CANet]** Zhou H., et al. (2022). CANet: Co-attention network for RGB-D semantic segmentation. Pattern Recognition. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320321006440?via%3Dihub) [Code]
 - **[ADSD]** Zhang Y., et al. (2022). Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation. arXiv:2201.01427 [[Paper]](https://arxiv.org/pdf/2201.01427.pdf)
+- **[HS3]** Borse S., et al. (2021). HS3: Learning with Proper Task Complexity in Hierarchically Supervised Semantic Segmentation.  British Machine Vision Conference [[Paper]](https://arxiv.org/pdf/2111.02333.pdf)
+- **[InvPT]** Ye H., et al. (2022). Inverted Pyramid Multi-task Transformer for Dense Scene Understanding.  arXiv:2203.07997 [[Paper]](https://arxiv.org/pdf/2203.07997.pdf)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
