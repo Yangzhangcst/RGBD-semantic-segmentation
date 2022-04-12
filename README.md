@@ -147,6 +147,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |    **ADSD(ResNet50)**      |    77.5     |    65.3     |    52.5    |                  | RGBD  |                 |     arXiv   | 2022 |
 |         **InvPT**          |             |             |    53.56   |                  | RGB   |                 |     arXiv   | 2022 |
 |        **PGDENet**         |    78.1     |    66.7     |    53.7    |                  | RGBD  |                 |  IEEE TMM   | 2022 |
+|          **CMX**           |    80.1     |             |    56.9    |                  | RGBD  |                 |     arXiv   | 2022 |
 
 ### SUN RGB-D 
 
@@ -219,17 +220,21 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |   **CANet(ResNet101)**     |    85.2     |             |    50.6    |         | RGBD  |                  |     PR    | 2022 |
 |    **ADSD(ResNet50)**      |    81.8     |     62.1    |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
 |        **PGDENet**         |    87.7     |     61.7    |    51.0    |         | RGBD  |                  |  IEEE TMM | 2022 |
+|          **CMX**           |    83.3     |             |    51.1    |         | RGBD  |                  |  IEEE TMM | 2022 |
 
 ### 2D-3D-S 
 
 |      Method      | PixAcc | mAcc | mIoU | f.w.IOU | Input |    Ref. from     | Published | Year |
 | :--------------: | :----: | :--: | :--: | :-----: | :---: | :--------------: | :-------: | ---- |
 |   **Deeplab**    |  64.3  | 46.7 | 35.5 |  48.5   | RGBD  | **MMAF-Net-152** |   ICLR    | 2015 |
+|   **D-CNN**      |  65.4  |      | 35.9 |         | RGBD  |     **CMX**      |   ECCV    | 2018 |
 | **DeepLab-LFOV** |  88.0  | 42.2 | 69.8 |         |  RGB  |   **PU-Loop**    |   TPAMI   | 2018 |
 |    **D-CNN**     |  65.4  | 55.5 | 39.5 |  49.9   | RGBD  |                  |   ECCV    | 2018 |
-|   **PU-Loop**    |  91.0  |      | 76.5 |         |  RGB  |                  |    CVPR   | 2018 |
+|   **PU-Loop**    |  91.0  |      | 76.5 |         |  RGB  |                  |   CVPR    | 2018 |
 | **MMAF-Net-152** |  76.5  | 62.3 | 52.9 |         | RGBD  |                  |   arXiv   | 2019 |
 |   **3M2RNet**    |  79.8  | 75.2 |  63  |         | RGBD  |                  |    SIC    | 2019 |
+|   **ShapeConv**  |  82.7  |      | 60.6 |         | RGBD  |     **CMX**      |   ICCV    | 2021 |
+|     **CMX**      |  82.6  |      | 62.1 |         | RGBD  |                  |   arXiv   | 2022 |
 
 ### Cityscapes
 https://www.cityscapes-dataset.com/benchmarks/
