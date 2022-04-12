@@ -336,9 +336,10 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[GRBNet]** Zhou W., et al. (2021). Gated-Residual Block for Semantic Segmentation Using RGB-D Data. IEEE Transactions on Intelligent Transportation Systems. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9529067) [Code]
 - **[RTLNet]** Zhou W., et al. (2021). RTLNet: Recursive Triple-Path Learning Network for Scene Parsing of RGB-D Images. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9667195) [Code]
 - **[CANet]** Zhou H., et al. (2022). CANet: Co-attention network for RGB-D semantic segmentation. Pattern Recognition. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320321006440?via%3Dihub) [Code]
-- **[ADSD]** Zhang Y., et al. (2022). Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation. arXiv:2201.01427 [[Paper]](https://arxiv.org/pdf/2201.01427.pdf)
-- **[HS3]** Borse S., et al. (2021). HS3: Learning with Proper Task Complexity in Hierarchically Supervised Semantic Segmentation.  British Machine Vision Conference [[Paper]](https://arxiv.org/pdf/2111.02333.pdf)
-- **[InvPT]** Ye H., et al. (2022). Inverted Pyramid Multi-task Transformer for Dense Scene Understanding.  arXiv:2203.07997 [[Paper]](https://arxiv.org/pdf/2203.07997.pdf)
+- **[ADSD]** Zhang Y., et al. (2022). Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation. arXiv:2201.01427 [[Paper]](https://arxiv.org/pdf/2201.01427.pdf) [Code]
+- **[HS3]** Borse S., et al. (2021). HS3: Learning with Proper Task Complexity in Hierarchically Supervised Semantic Segmentation.  British Machine Vision Conference [[Paper]](https://arxiv.org/pdf/2111.02333.pdf) [Code]
+- **[InvPT]** Ye H., et al. (2022). Inverted Pyramid Multi-task Transformer for Dense Scene Understanding.  arXiv:2203.07997 [[Paper]](https://arxiv.org/pdf/2203.07997.pdf) [Code]
+- **[InvPT]** Zhou W., et al. (2022). PGDENet: Progressive Guided Fusion and Depth Enhancement Network for RGB-D Indoor Scene Parsing. IEEE Transactions on Multimedia  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9740493/) [Code]
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
