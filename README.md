@@ -145,6 +145,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |    **CANet(ResNet101)**    |    77.1     |    64.6     |    51.5    |                  | RGBD  |                 |      PR     | 2022 |
 |    **ADSD(ResNet50)**      |    77.5     |    65.3     |    52.5    |                  | RGBD  |                 |     arXiv   | 2022 |
 |         **InvPT**          |             |             |    53.56   |                  | RGB   |                 |     arXiv   | 2022 |
+|        **PGDENet**         |    78.1     |    66.7     |    53.7    |                  | RGBD  |                 |  IEEE TMM   | 2022 |
 
 ### SUN RGB-D 
 
@@ -216,6 +217,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |        **RTLNet**          |    81.3     |             |    45.7    |         | RGBD  |                  |  IEEE SPL | 2021 |
 |   **CANet(ResNet101)**     |    85.2     |             |    50.6    |         | RGBD  |                  |     PR    | 2022 |
 |    **ADSD(ResNet50)**      |    81.8     |     62.1    |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
+|        **PGDENet**         |    87.7     |     61.7    |    51.0    |         | RGBD  |                  |  IEEE TMM | 2022 |
 
 ### 2D-3D-S 
 
