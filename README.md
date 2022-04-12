@@ -18,6 +18,7 @@ A paper list of RGBD semantic segmentation.
 *2021/August* - update some recent papers (IJCV, ICCV2021, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 *2022/January* - update some recent papers (TITS, PR, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 *2022/March* - update benchmark results on Cityscapes and ScanNet datasets.  
+*2022/April* - update some recent papers (BMVC, IEEE TMM, arXiv) of RGBD semantic segmentation.   
 
 ##
 
