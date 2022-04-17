@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2022/04/12
+*Last updated: 2022/04/17
 
 #### Update log
 
@@ -148,6 +148,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |         **InvPT**          |             |             |    53.56   |                  | RGB   |                 |     arXiv   | 2022 |
 |        **PGDENet**         |    78.1     |    66.7     |    53.7    |                  | RGBD  |                 |  IEEE TMM   | 2022 |
 |          **CMX**           |    80.1     |             |    56.9    |                  | RGBD  |                 |     arXiv   | 2022 |
+|         **RFNet**          |    80.1     |    64.7     |    53.5    |                  | RGBD  |                 | IEEE TETCI  | 2022 |
 
 ### SUN RGB-D 
 
@@ -221,6 +222,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |    **ADSD(ResNet50)**      |    81.8     |     62.1    |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
 |        **PGDENet**         |    87.7     |     61.7    |    51.0    |         | RGBD  |                  |  IEEE TMM | 2022 |
 |          **CMX**           |    83.3     |             |    51.1    |         | RGBD  |                  |  IEEE TMM | 2022 |
+|         **RFNet**          |    87.3     |     59.0    |    50.7    |         | RGBD  |                  | IEEE TETCI| 2022 |
 
 ### 2D-3D-S 
 
@@ -347,8 +349,9 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[ADSD]** Zhang Y., et al. (2022). Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation. arXiv:2201.01427 [[Paper]](https://arxiv.org/pdf/2201.01427.pdf) [Code]
 - **[HS3]** Borse S., et al. (2021). HS3: Learning with Proper Task Complexity in Hierarchically Supervised Semantic Segmentation.  British Machine Vision Conference [[Paper]](https://arxiv.org/pdf/2111.02333.pdf) [Code]
 - **[InvPT]** Ye H., et al. (2022). Inverted Pyramid Multi-task Transformer for Dense Scene Understanding.  arXiv:2203.07997 [[Paper]](https://arxiv.org/pdf/2203.07997.pdf) [Code]
-- **[InvPT]** Zhou W., et al. (2022). PGDENet: Progressive Guided Fusion and Depth Enhancement Network for RGB-D Indoor Scene Parsing. IEEE Transactions on Multimedia  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9740493/) [Code]
+- **[PGDENet]** Zhou W., et al. (2022). PGDENet: Progressive Guided Fusion and Depth Enhancement Network for RGB-D Indoor Scene Parsing. IEEE Transactions on Multimedia  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9740493/) [Code]
 - **[CMX]** Liu X., et al. (2022). CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers. arXiv:2203.04838 [[Paper]](https://arxiv.org/pdf/2203.04838.pdf) [[Code]](https://github.com/huaaaliu/RGBX_Semantic_Segmentation)
+- **[RFNet]** Zhou W., et al. (2022). RFNet: Reverse Fusion Network With Attention Mechanism for RGB-D Indoor Scene Understanding.  IEEE Transactions on Emerging Topics in Computational Intelligence [[Paper]](https://ieeexplore.ieee.org/abstract/document/9755197) [Code]
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
