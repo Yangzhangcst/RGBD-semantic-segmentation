@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2022/04/17
+*Last updated: 2022/04/20
 
 #### Update log
 
@@ -18,7 +18,7 @@ A paper list of RGBD semantic segmentation.
 *2021/August* - update some recent papers (IJCV, ICCV2021, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 *2022/January* - update some recent papers (TITS, PR, IEEE SPL, arXiv) of RGBD semantic segmentation.  
 *2022/March* - update benchmark results on Cityscapes and ScanNet datasets.  
-*2022/April* - update some recent papers (BMVC, IEEE TMM, arXiv) of RGBD semantic segmentation.   
+*2022/April* - update some recent papers (CVPR, BMVC, IEEE TMM, arXiv) of RGBD semantic segmentation.   
 
 ##
 
@@ -149,6 +149,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |        **PGDENet**         |    78.1     |    66.7     |    53.7    |                  | RGBD  |                 |  IEEE TMM   | 2022 |
 |          **CMX**           |    80.1     |             |    56.9    |                  | RGBD  |                 |     arXiv   | 2022 |
 |         **RFNet**          |    80.1     |    64.7     |    53.5    |                  | RGBD  |                 | IEEE TETCI  | 2022 |
+|          **MTF**           |    79.0     |    66.9     |    54.2    |                  | RGBD  |                 |    CVPR     | 2022 |
 
 ### SUN RGB-D 
 
@@ -223,6 +224,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |        **PGDENet**         |    87.7     |     61.7    |    51.0    |         | RGBD  |                  |  IEEE TMM | 2022 |
 |          **CMX**           |    83.3     |             |    51.1    |         | RGBD  |                  |  IEEE TMM | 2022 |
 |         **RFNet**          |    87.3     |     59.0    |    50.7    |         | RGBD  |                  | IEEE TETCI| 2022 |
+|          **MTF**           |    84.7     |     64.1    |    53.0    |         | RGBD  |                  |    CVPR   | 2022 |
 
 ### 2D-3D-S 
 
@@ -352,6 +354,7 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[PGDENet]** Zhou W., et al. (2022). PGDENet: Progressive Guided Fusion and Depth Enhancement Network for RGB-D Indoor Scene Parsing. IEEE Transactions on Multimedia  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9740493/) [Code]
 - **[CMX]** Liu X., et al. (2022). CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers. arXiv:2203.04838 [[Paper]](https://arxiv.org/pdf/2203.04838.pdf) [[Code]](https://github.com/huaaaliu/RGBX_Semantic_Segmentation)
 - **[RFNet]** Zhou W., et al. (2022). RFNet: Reverse Fusion Network With Attention Mechanism for RGB-D Indoor Scene Understanding.  IEEE Transactions on Emerging Topics in Computational Intelligence [[Paper]](https://ieeexplore.ieee.org/abstract/document/9755197) [Code]
+- **[MTF]** Wang Y., et al. (2022). Multimodal Token Fusion for Vision Transformers. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2204.08721.pdf) [Code]
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
