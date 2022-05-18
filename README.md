@@ -144,6 +144,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |       **RAFNet-50**        |    73.8     |    60.3     |    47.5    |                  | RGBD  |                 |   Displays  | 2021 |
 |        **RTLNet**          |    77.7     |             |    53.1    |                  | RGBD  |                 |   IEEE SPL  | 2021 |
 |        **H3S-Fuse**        |    78.3     |             |    53.5    |                  | RGB   |                 |     BMVC    | 2021 |
+|         **EBANet**         |    76.82    |             |    51.51   |                  | RGBD  |                 |    ICCSIP   | 2021 |
 |    **CANet(ResNet101)**    |    77.1     |    64.6     |    51.5    |                  | RGBD  |                 |      PR     | 2022 |
 |    **ADSD(ResNet50)**      |    77.5     |    65.3     |    52.5    |                  | RGBD  |                 |     arXiv   | 2022 |
 |         **InvPT**          |             |             |    53.56   |                  | RGB   |                 |     arXiv   | 2022 |
@@ -153,6 +154,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **MTF**           |    79.0     |    66.9     |    54.2    |                  | RGBD  |                 |    CVPR     | 2022 |
 |          **FRNet**         |    77.6     |    66.5     |    53.6    |                  | RGBD  |                 | IEEE JSTSP  | 2022 |
 |          **DRD**           |    51.0     |             |    38.2    |                  | RGB   |                 | IEEE ICASSP | 2022 |
+|          **SAMD**          |    74.4     |    67.2     |    52.3    |       61.9       | RGBD  |                 | Neurocomput.| 2022 |
+
 
 ### SUN RGB-D 
 
@@ -230,6 +233,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **MTF**           |    84.7     |     64.1    |    53.0    |         | RGBD  |                  |    CVPR   | 2022 |
 |          **FRNet**         |    87.4     |     62.2    |    51.8    |         | RGBD  |                  | IEEE JSTSP| 2022 |
 |          **DRD**           |    48.9     |             |    39.5    |         | RGB   |                  |IEEE ICASSP| 2022 |
+|          **SAMD**          |             |     63.4    |            |         | RGBD  |                 |Neurocomput.| 2022 |
 
 ### 2D-3D-S 
 
@@ -352,6 +356,8 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[FuseNet-3DEF]** Terreran M., et al. (2022). Light deep learning models enriched with Entangled features for RGB-D semantic segmentation. Robotics and Autonomous Systems. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0921889021001470) [Code]
 - **[GRBNet]** Zhou W., et al. (2021). Gated-Residual Block for Semantic Segmentation Using RGB-D Data. IEEE Transactions on Intelligent Transportation Systems. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9529067) [Code]
 - **[RTLNet]** Zhou W., et al. (2021). RTLNet: Recursive Triple-Path Learning Network for Scene Parsing of RGB-D Images. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9667195) [Code]
+- **[EBANet]** Wang R., et al. (2021). EBANet: Efficient Boundary-Aware Network for RGB-D Semantic Segmentation. 
+International Conference on Cognitive Systems and Signal Processing. [[Paper]](https://link.springer.com/content/pdf/10.1007/978-981-16-9247-5_16.pdf)
 - **[CANet]** Zhou H., et al. (2022). CANet: Co-attention network for RGB-D semantic segmentation. Pattern Recognition. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320321006440?via%3Dihub) [Code]
 - **[ADSD]** Zhang Y., et al. (2022). Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation. arXiv:2201.01427 [[Paper]](https://arxiv.org/pdf/2201.01427.pdf) [Code]
 - **[HS3]** Borse S., et al. (2021). HS3: Learning with Proper Task Complexity in Hierarchically Supervised Semantic Segmentation.  British Machine Vision Conference [[Paper]](https://arxiv.org/pdf/2111.02333.pdf) [Code]
@@ -362,6 +368,7 @@ http://kaldir.vc.in.tum.de/scannet_benchmark/ (2D Semantic label benchmark)
 - **[MTF]** Wang Y., et al. (2022). Multimodal Token Fusion for Vision Transformers. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2204.08721.pdf) [Code]
 - **[FRNet]** Zhou W., et al. (2022). FRNet: Feature Reconstruction NetworkforRGB-DIndoor Scene Parsing. IEEE Journal of Selected Topics in Signal Processing. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9774020) [[Code]](https://github.com/EnquanYang2022/FRNet)
 - **[DRD]** Fang T., et al. (2022). Depth Removal Distillation for RGB-D Semantic Segmentation. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9747767)
+- **[SAMD]** Zhou F., et al. (2022). Scale-aware network with modality-awareness for RGB-D indoor semantic segmentation. Neurocomputing. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0925231222003903)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
