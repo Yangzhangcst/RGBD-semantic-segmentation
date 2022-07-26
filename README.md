@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2022/05/18
+*Last updated: 2022/07/26
 
 #### Update log
 
@@ -20,6 +20,7 @@ A paper list of RGBD semantic segmentation.
 *2022/March* - update benchmark results on Cityscapes and ScanNet datasets.  
 *2022/April* - update some recent papers (CVPR, BMVC, IEEE TMM, arXiv) of RGBD semantic segmentation.   
 *2022/May* - update some recent papers of RGBD semantic segmentation.   
+*2022/July* - update some recent papers of RGBD semantic segmentation.   
 
 ##
 
@@ -155,7 +156,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **FRNet**         |    77.6     |    66.5     |    53.6    |                  | RGBD  |                 | IEEE JSTSP  | 2022 |
 |          **DRD**           |    51.0     |             |    38.2    |                  | RGB   |                 | IEEE ICASSP | 2022 |
 |          **SAMD**          |    74.4     |    67.2     |    52.3    |       61.9       | RGBD  |                 | Neurocomput.| 2022 |
-
+|       **BFFNet-152**       |             |             |    47.5    |                  | RGBD  |                 | IEEE ICSP   | 2022 |
+|     **MQTransformer**      |             |             |    49.18   |                  | RGBD  |                 |     arXiv   | 2022 |
+|           **GED**          |    75.9     |     62.4    |    49.4    |                  | RGBD  |                 |     MTA     | 2022 |
+|           **LDF**          |    84.8     |     68.7    |    59.6    |                  | RGB   |                 |     MTA     | 2022 |
 
 ### SUN RGB-D 
 
@@ -234,6 +238,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **FRNet**         |    87.4     |     62.2    |    51.8    |         | RGBD  |                  | IEEE JSTSP| 2022 |
 |          **DRD**           |    48.9     |             |    39.5    |         | RGB   |                  |IEEE ICASSP| 2022 |
 |          **SAMD**          |             |     63.4    |            |         | RGBD  |                 |Neurocomput.| 2022 |
+|       **BFFNet-152**       |    86.7     |             |    44.6    |         | RGBD  |                  | IEEE ICSP | 2022 |
+|           **LDF**          |    85.5     |     68.3    |    47.5    |         | RGB   |                  |     MTA   | 2022 |
 
 ### 2D-3D-S 
 
@@ -369,6 +375,10 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[FRNet]** Zhou W., et al. (2022). FRNet: Feature Reconstruction NetworkforRGB-DIndoor Scene Parsing. IEEE Journal of Selected Topics in Signal Processing. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9774020) [[Code]](https://github.com/EnquanYang2022/FRNet)
 - **[DRD]** Fang T., et al. (2022). Depth Removal Distillation for RGB-D Semantic Segmentation. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9747767)
 - **[SAMD]** Zhou F., et al. (2022). Scale-aware network with modality-awareness for RGB-D indoor semantic segmentation. Neurocomputing. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0925231222003903)
+- **[BFFNet-152]** He Y., et al. (2022). Bimodal Feature Propagation and Fusion for Realtime Semantic Segmentation on RGB-D Images. International Conference on Intelligent Computing and Signal Processing. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9778300)
+- **[MQTransformer]** Xu Y., et al. (2022). Multi-Task Learning with Multi-Query Transformer for Dense Prediction. arXiv:2203.04838 [[Paper]](https://arxiv.org/pdf/2205.14354.pdf)
+- **[GED]** Zou W., et al. (2022). RGB‑D Gate‑guided edge distillation for indoor semantic segmentation. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11395-w.pdf)
+- **[LDF]** Chen S., et al. (2022). Learning depth‑aware features for indoor scene understanding. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11453-3.pdf)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
