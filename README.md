@@ -160,7 +160,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |     **MQTransformer**      |             |             |    49.18   |                  | RGBD  |                 |     arXiv   | 2022 |
 |           **GED**          |    75.9     |     62.4    |    49.4    |                  | RGBD  |                 |     MTA     | 2022 |
 |           **LDF**          |    84.8     |     68.7    |    59.6    |                  | RGB   |                 |     MTA     | 2022 |
-|           **PCGNet         |    77.6     |             |    52.1    |                  | RGBD  |                 | IEEE ICMEW  | 2022 |
+|           **PCGNet**       |    77.6     |             |    52.1    |                  | RGBD  |                 | IEEE ICMEW  | 2022 |
 
 ### SUN RGB-D 
 
@@ -241,7 +241,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **SAMD**          |             |     63.4    |            |         | RGBD  |                 |Neurocomput.| 2022 |
 |       **BFFNet-152**       |    86.7     |             |    44.6    |         | RGBD  |                  | IEEE ICSP | 2022 |
 |           **LDF**          |    85.5     |     68.3    |    47.5    |         | RGB   |                  |     MTA   | 2022 |
-|           **PCGNet         |    82.1     |             |    49.0    |         | RGBD  |                  | IEEE ICMEW| 2022 |
+|           **PCGNet**       |    82.1     |             |    49.0    |         | RGBD  |                  | IEEE ICMEW| 2022 |
 
 ### 2D-3D-S 
 
