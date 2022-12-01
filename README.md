@@ -160,6 +160,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |     **MQTransformer**      |             |             |    49.18   |                  | RGBD  |                 |     arXiv   | 2022 |
 |           **GED**          |    75.9     |     62.4    |    49.4    |                  | RGBD  |                 |     MTA     | 2022 |
 |           **LDF**          |    84.8     |     68.7    |    59.6    |                  | RGB   |                 |     MTA     | 2022 |
+|           **PCGNet         |    77.6     |             |    52.1    |                  | RGBD  |                 | IEEE ICMEW  | 2022 |
 
 ### SUN RGB-D 
 
@@ -240,6 +241,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **SAMD**          |             |     63.4    |            |         | RGBD  |                 |Neurocomput.| 2022 |
 |       **BFFNet-152**       |    86.7     |             |    44.6    |         | RGBD  |                  | IEEE ICSP | 2022 |
 |           **LDF**          |    85.5     |     68.3    |    47.5    |         | RGB   |                  |     MTA   | 2022 |
+|           **PCGNet         |    82.1     |             |    49.0    |         | RGBD  |                  | IEEE ICMEW| 2022 |
 
 ### 2D-3D-S 
 
@@ -378,7 +380,8 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[BFFNet-152]** He Y., et al. (2022). Bimodal Feature Propagation and Fusion for Realtime Semantic Segmentation on RGB-D Images. International Conference on Intelligent Computing and Signal Processing. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9778300)
 - **[MQTransformer]** Xu Y., et al. (2022). Multi-Task Learning with Multi-Query Transformer for Dense Prediction. arXiv:2203.04838 [[Paper]](https://arxiv.org/pdf/2205.14354.pdf)
 - **[GED]** Zou W., et al. (2022). RGB‑D Gate‑guided edge distillation for indoor semantic segmentation. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11395-w.pdf)
-- **[LDF]** Chen S., et al. (2022). Learning depth‑aware features for indoor scene understanding*. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11453-3.pdf)
+- **[LDF]** Chen S., et al. (2022). Learning depth‑aware features for indoor scene understanding. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11453-3.pdf)
+- **[PCGNet]** Liu H., et al. (2022). Pyramid-Context Guided Feature Fusion for RGB-D Semantic Segmentation. IEEE International Conference on Multimedia and Expo Workshops (ICMEW). [[Paper]](https://ieeexplore.ieee.org/document/9859353)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
