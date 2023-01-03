@@ -170,6 +170,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **DynMM**         |             |             |    51.0    |                  | RGBD  |                 |     arXiv   | 2022 |
 |          **FAFNet**        |    78.3     |             |    54.0    |                  | RGBD  |                 |    IET IP   | 2022 |
 |         **EMSANet**        |             |             |    53.34   |                  | RGBD  |                 |     IJCNN   | 2022 |
+|          **DCANet**        |    78.2     |             |    53.3    |                  | RGBD  |                 |     arXiv   | 2022 |
 
 ### SUN RGB-D 
 
@@ -257,6 +258,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **CMANet**        |    81.1     |     59.3    |    47.2    |         | RGBD  |                  |  Sensors  | 2022 |
 |          **FAFNet**        |    82.3     |             |    49.2    |         | RGBD  |                  |   IET IP  | 2022 |
 |         **EMSANet**        |             |             |    48.47   |         | RGBD  |                  |   IJCNN   | 2022 |
+|          **DCANet**        |    82.6     |             |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
 
 ### 2D-3D-S 
 
@@ -404,7 +406,7 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[FFCANet]** Liu Y., et al. (2022). Application of Multi-modal Fusion Attention Mechanism in Semantic Segmentation. Sensors. [[Paper]]([https://www.mdpi.com/1424-8220/22/21/8520](https://openaccess.thecvf.com/content/ACCV2022/papers/Liu_Application_of_Multi-modal_Fusion_Attention_Mechanism_in_Semantic_Segmentation_ACCV_2022_paper.pdf)) [Code]
 - **[DynMM]** Xue Z., et al. (2022). Dynamic Multimodal Fusion. arXiv:2204.00102 [[Paper]](https://arxiv.org/pdf/2204.00102.pdf)
 - **[FAFNet]** Chen J., et al. (2022). FAFNet: Fully aligned fusion network for RGBD semanticsegmentation based on hierarchical semantic flows. IET Image Processing. [[Paper]](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/ipr2.12614) [Code]
-- **[EMSANet]** Seichter D., et al. (2022). Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments. International Joint Conference on Neural Networks (IJCNN). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9892852) [Code](https://github.com/TUI-NICR/EMSANet)
+- **[EMSANet]** Seichter D., et al. (2022). Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments. International Joint Conference on Neural Networks (IJCNN). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9892852) [[Code]](https://github.com/TUI-NICR/EMSANet)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
