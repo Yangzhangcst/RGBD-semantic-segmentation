@@ -164,6 +164,12 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |           **PCGNet**       |    77.6     |             |    52.1    |                  | RGBD  |                 | IEEE ICMEW  | 2022 |
 |           **UCTNet**       |             |             |    57.6    |                  | RGBD  |                 |     ECCV    | 2022 |
 |       **Swin-RGB-D**       |    77.2     |     64.2    |    50.9    |                  | RGBD  |                 |     SPSS    | 2022 |
+|          **MGCNet**        |    78.7     |     68.3    |    54.5    |                  | RGBD  |                 |   IEEE SPL  | 2022 |
+|          **CMANet**        |    74.2     |     60.2    |    47.6    |                  | RGBD  |                 |   Sensors   | 2022 |
+|         **FFCANet**        |    78.4     |     65.3    |    53.3    |                  | RGBD  |                 |     ACCV    | 2022 |
+|          **DynMM**         |             |             |    51.0    |                  | RGBD  |                 |     arXiv   | 2022 |
+|          **FAFNet**        |    78.3     |             |    54.0    |                  | RGBD  |                 |    IET IP   | 2022 |
+|         **EMSANet**        |             |             |    53.34   |                  | RGBD  |                 |     IJCNN   | 2022 |
 
 ### SUN RGB-D 
 
@@ -247,6 +253,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |           **PCGNet**       |    82.1     |             |    49.0    |         | RGBD  |                  | IEEE ICMEW| 2022 |
 |           **UCTNet**       |             |             |    51.2    |         | RGBD  |                  |     ECCV  | 2022 |
 |       **Swin-RGB-D**       |    81.9     |     61.2    |    48.2    |         | RGBD  |                  |     SPSS  | 2022 |
+|          **MGCNet**        |    86.5     |     64.2    |    51.5    |         | RGBD  |                  | IEEE SPL  | 2022 |
+|          **CMANet**        |    81.1     |     59.3    |    47.2    |         | RGBD  |                  |  Sensors  | 2022 |
+|          **FAFNet**        |    82.3     |             |    49.2    |         | RGBD  |                  |   IET IP  | 2022 |
+|         **EMSANet**        |             |             |    48.47   |         | RGBD  |                  |   IJCNN   | 2022 |
 
 ### 2D-3D-S 
 
@@ -389,6 +399,12 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[PCGNet]** Liu H., et al. (2022). Pyramid-Context Guided Feature Fusion for RGB-D Semantic Segmentation. IEEE International Conference on Multimedia and Expo Workshops (ICMEW). [[Paper]](https://ieeexplore.ieee.org/document/9859353)
 - **[UCTNet]** Ying X., et al. (2022). UCTNet: Uncertainty-Aware Cross-Modal Transformer Network for Indoor RGB-D Semantic Segmentation.  European Conference on Computer Vision. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_2)
 - **[Swin-RGB-D]** Yang Y., et al. (2022). Hierarchical Vision Transformer with Channel Attention for RGB-D Image Segmentation. Proceedings of the 4th International Symposium on Signal Processing Systems. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3532342.3532352)
+- **[MGCNet]** Yang  E., et al. (2022). MGCNet: Multilevel Gated Collaborative Network for RGB-D Semantic Segmentation of Indoor Scene. IEEE Signal Processing Letters. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9987562) [Code]
+- **[CMANet]** Zhu L., et al. (2022). CMANet: Cross-Modality Attention Network for Indoor-Scene Semantic Segmentation. Sensors. [[Paper]](https://www.mdpi.com/1424-8220/22/21/8520) [Code]
+- **[FFCANet]** Liu Y., et al. (2022). Application of Multi-modal Fusion Attention Mechanism in Semantic Segmentation. Sensors. [[Paper]]([https://www.mdpi.com/1424-8220/22/21/8520](https://openaccess.thecvf.com/content/ACCV2022/papers/Liu_Application_of_Multi-modal_Fusion_Attention_Mechanism_in_Semantic_Segmentation_ACCV_2022_paper.pdf)) [Code]
+- **[DynMM]** Xue Z., et al. (2022). Dynamic Multimodal Fusion. arXiv:2204.00102 [[Paper]](https://arxiv.org/pdf/2204.00102.pdf)
+- **[FAFNet]** Chen J., et al. (2022). FAFNet: Fully aligned fusion network for RGBD semanticsegmentation based on hierarchical semantic flows. IET Image Processing. [[Paper]](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/ipr2.12614) [Code]
+- **[EMSANet]** Seichter D., et al. (2022). Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments. International Joint Conference on Neural Networks (IJCNN). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9892852) [Code](https://github.com/TUI-NICR/EMSANet)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
