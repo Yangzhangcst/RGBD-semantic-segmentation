@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2022/07/26
+*Last updated: 2023/01/03
 
 #### Update log
 
@@ -21,6 +21,7 @@ A paper list of RGBD semantic segmentation.
 *2022/April* - update some recent papers (CVPR, BMVC, IEEE TMM, arXiv) of RGBD semantic segmentation.   
 *2022/May* - update some recent papers of RGBD semantic segmentation.   
 *2022/July* - update some recent papers of RGBD semantic segmentation.   
+*2023/January* - update some recent papers of RGBD semantic segmentation.  
 
 ##
 
@@ -161,6 +162,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |           **GED**          |    75.9     |     62.4    |    49.4    |                  | RGBD  |                 |     MTA     | 2022 |
 |           **LDF**          |    84.8     |     68.7    |    59.6    |                  | RGB   |                 |     MTA     | 2022 |
 |           **PCGNet**       |    77.6     |             |    52.1    |                  | RGBD  |                 | IEEE ICMEW  | 2022 |
+|           **UCTNet**       |             |             |    57.6    |                  | RGBD  |                 |     ECCV    | 2022 |
+|       **Swin-RGB-D**       |    77.2     |     64.2    |    50.9    |                  | RGBD  |                 |     SPSS    | 2022 |
 
 ### SUN RGB-D 
 
@@ -242,6 +245,8 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |       **BFFNet-152**       |    86.7     |             |    44.6    |         | RGBD  |                  | IEEE ICSP | 2022 |
 |           **LDF**          |    85.5     |     68.3    |    47.5    |         | RGB   |                  |     MTA   | 2022 |
 |           **PCGNet**       |    82.1     |             |    49.0    |         | RGBD  |                  | IEEE ICMEW| 2022 |
+|           **UCTNet**       |             |             |    51.2    |         | RGBD  |                  |     ECCV  | 2022 |
+|       **Swin-RGB-D**       |    81.9     |     61.2    |    48.2    |         | RGBD  |                  |     SPSS  | 2022 |
 
 ### 2D-3D-S 
 
@@ -382,6 +387,8 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[GED]** Zou W., et al. (2022). RGB‑D Gate‑guided edge distillation for indoor semantic segmentation. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11395-w.pdf)
 - **[LDF]** Chen S., et al. (2022). Learning depth‑aware features for indoor scene understanding. Multimedia Tools and Applications. [[Paper]](https://link.springer.com/content/pdf/10.1007/s11042-021-11453-3.pdf)
 - **[PCGNet]** Liu H., et al. (2022). Pyramid-Context Guided Feature Fusion for RGB-D Semantic Segmentation. IEEE International Conference on Multimedia and Expo Workshops (ICMEW). [[Paper]](https://ieeexplore.ieee.org/document/9859353)
+- **[UCTNet]** Ying X., et al. (2022). UCTNet: Uncertainty-Aware Cross-Modal Transformer Network for Indoor RGB-D Semantic Segmentation.  European Conference on Computer Vision. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_2)
+- **[Swin-RGB-D]** Yang Y., et al. (2022). Hierarchical Vision Transformer with Channel Attention for RGB-D Image Segmentation. Proceedings of the 4th International Symposium on Signal Processing Systems. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3532342.3532352)
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
