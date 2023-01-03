@@ -173,6 +173,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **DCANet**        |    78.2     |             |    53.3    |                  | RGBD  |                 |     arXiv   | 2022 |
 |          **WTNet**         |    77.7     |     64.1    |    52.13   |                  | RGBD  |                  | Evolving Sys. | 2022 |
 |       **Link-RGBD**        |    76.8     |     59.6    |    49.5    |                  | RGBD  |                 | IEEE SJ     | 2022 |
+|      **TransD-Fusion       |    78.5     |     69.4    |    55.5    |   66.3           | RGBD  |                 |    CVIU     | 2022 |
 
 ### SUN RGB-D 
 
@@ -263,6 +264,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **DCANet**        |    82.6     |             |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
 |          **WTNet**         |    83.7     |     62.3    |    50.21   |         | RGBD  |                  | Evolving Sys. | 2022 |
 |       **Link-RGBD**        |    83.1     |     53.5    |    48.4    |         | RGBD  |                  | IEEE SJ   | 2022 |
+|      **TransD-Fusion       |    83.2     |     64.1    |    51.9    |   72.8  | RGBD  |                  |    CVIU   | 2022 |
 
 ### 2D-3D-S 
 
@@ -413,6 +415,7 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[EMSANet]** Seichter D., et al. (2022). Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments. International Joint Conference on Neural Networks (IJCNN). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9892852) [[Code]](https://github.com/TUI-NICR/EMSANet)
 - **[WTNet]** Fan R., et al. (2022). RGB‑D indoor semantic segmentation network based on wavelet transform. Evolving Systems. [[Paper]](https://link.springer.com/content/pdf/10.1007/s12530-022-09479-5.pdf?pdf=button)
 - **[Link-RGBD]** Wu P., et al. (2022). Link-RGBD: Cross-Guided Feature Fusion Network for RGBD Semantic Segmentation. IEEE Sensors Journal. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9940618) [Code]
+- **[TransD-Fusion]** Wu Z., et al. (2022). Transformer Fusion for Indoor RGB-D Semantic Segmentation. Computer Vision and Image Understanding. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4251286) [Code]
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
