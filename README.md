@@ -172,6 +172,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |         **EMSANet**        |             |             |    53.34   |                  | RGBD  |                 |     IJCNN   | 2022 |
 |          **DCANet**        |    78.2     |             |    53.3    |                  | RGBD  |                 |     arXiv   | 2022 |
 |          **WTNet**         |    77.7     |     64.1    |    52.13   |                  | RGBD  |                  | Evolving Sys. | 2022 |
+|       **Link-RGBD**        |    76.8     |     59.6    |    49.5    |                  | RGBD  |                 | IEEE SJ     | 2022 |
 
 ### SUN RGB-D 
 
@@ -261,6 +262,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |         **EMSANet**        |             |             |    48.47   |         | RGBD  |                  |   IJCNN   | 2022 |
 |          **DCANet**        |    82.6     |             |    49.6    |         | RGBD  |                  |   arXiv   | 2022 |
 |          **WTNet**         |    83.7     |     62.3    |    50.21   |         | RGBD  |                  | Evolving Sys. | 2022 |
+|       **Link-RGBD**        |    83.1     |     53.5    |    48.4    |         | RGBD  |                  | IEEE SJ   | 2022 |
 
 ### 2D-3D-S 
 
@@ -410,6 +412,7 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[FAFNet]** Chen J., et al. (2022). FAFNet: Fully aligned fusion network for RGBD semanticsegmentation based on hierarchical semantic flows. IET Image Processing. [[Paper]](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/ipr2.12614) [Code]
 - **[EMSANet]** Seichter D., et al. (2022). Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments. International Joint Conference on Neural Networks (IJCNN). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9892852) [[Code]](https://github.com/TUI-NICR/EMSANet)
 - **[WTNet]** Fan R., et al. (2022). RGB‑D indoor semantic segmentation network based on wavelet transform. Evolving Systems. [[Paper]](https://link.springer.com/content/pdf/10.1007/s12530-022-09479-5.pdf?pdf=button)
+- **[Link-RGBD]** Wu P., et al. (2022). Link-RGBD: Cross-Guided Feature Fusion Network for RGBD Semantic Segmentation. IEEE Sensors Journal. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9940618) [Code]
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
