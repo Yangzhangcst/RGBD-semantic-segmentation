@@ -420,6 +420,14 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 ## Citing
 If you find this repository useful in your research, please consider citing:
 ```
+@ARTICLE{SGAC2023,  
+  author={Y. {Zhang} and C. {Xiong} and  J. {Liu} and X. {Ye} and G. {Sun}},  
+  booktitle={IEEE Sensors Journal},   
+  title={Spatial-information Guided Adaptive Context-aware Network for Efficient RGBD Semantic Segmentation},   
+  year={2023}，  
+  pages={1-10}
+  }
+
 @ARTICLE{ADSD2022,  
   author={Y. {Zhang} and Y. {Yang} and  C. {Chen} and G. {Sun} and Y. {Guo}},  
   booktitle={Computational Visual Media Conference},   
