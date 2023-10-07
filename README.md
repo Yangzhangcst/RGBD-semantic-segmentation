@@ -178,6 +178,9 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |       **[PDCNet]**         |    77.7     |             |    52.7    |                  | RGBD  |                 |    TCSVT    | 2023 |
 |       **[Mask3D]**         |             |             |    56.9    |                  | RGBD  |                 |    CVPR     | 2023 |
 |       **[BiFCNet]**        |    77.9     |             |    51.8    |                  | RGBD  |                 |    ICRA     | 2023 |
+|        **SGACNet**         |    75.6     |     62.7    |    49.4    |                  | RGBD  |                 | IEEE Sensors J.| 2023 |
+|        **DFormer**         |             |             |    57.2    |                  | RGBD  |                 |    arXiv    | 2023 |
+|        **AsymFormer**      |    77.0     |             |    52.0    |                  | RGBD  |                 |    arXiv    | 2023 |
 
 ### SUN RGB-D 
 
@@ -269,7 +272,10 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **WTNet**         |    83.7     |     62.3    |    50.21   |         | RGBD  |                  | Evolving Sys. | 2022 |
 |       **Link-RGBD**        |    83.1     |     53.5    |    48.4    |         | RGBD  |                  | IEEE SJ   | 2022 |
 |      **TransD-Fusion**     |    83.2     |     64.1    |    51.9    |   72.8  | RGBD  |                  |    CVIU   | 2022 |
-|       **[PDCNet]**         |    82.4     |             |    49.2    |         | RGBD  |                  | IEEE TCSVT| 2023 |
+|        **PDCNet**          |    82.4     |             |    49.2    |         | RGBD  |                  | IEEE TCSVT| 2023 |
+|        **SGACNet**         |    81.2     |     60.8    |    47.8    |         | RGBD  |                  | IEEE Sensors J.| 2023 |
+|        **DFormer**         |             |             |    52.5    |         | RGBD  |                  |    arXiv  | 2023 |
+|        **AsymFormer**      |    81.9     |             |    49.1    |         | RGBD  |                  |    arXiv  | 2023 |
 
 ### 2D-3D-S 
 
@@ -424,9 +430,13 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[TransD-Fusion]** Wu Z., et al. (2022). Transformer Fusion for Indoor RGB-D Semantic Segmentation. Computer Vision and Image Understanding. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4251286) [Code]
 - **[GANDA]** Liao Y., et al. (2022). Geometry-Aware Network for Domain Adaptive Semantic Segmentation. The Thirty-Sixth AAAI Conference on Artificial Intelligence. [[Paper]](https://arxiv.org/pdf/2212.00920.pdf)
 - **[SupeRGB-D]** Örnek E. P., et al. (2023). SupeRGB-D: Zero-shot Instance Segmentation in Cluttered Indoor Environments. IEEE Robotics and Automation Letters. [[Paper]](https://arxiv.org/pdf/2212.11922.pdf) [[Code]](https://github.com/evinpinar/supergb-d)
-- **[PDCNet]** Yang J., et al. (2023). Pixel Difference Convolutional Network for RGB-D Semantic Segmentation. IEEE Transactions on Circuits and Systems for Video Technology. [[Paper]](https://arxiv.org/pdf/2302.11951.pdf) [Code](https://github.com/evinpinar/supergb-d) 
+- **[PDCNet]** Yang J., et al. (2023). Pixel Difference Convolutional Network for RGB-D Semantic Segmentation. IEEE Transactions on Circuits and Systems for Video Technology. [[Paper]](https://arxiv.org/pdf/2302.11951.pdf) [[Code]](https://github.com/evinpinar/supergb-d) 
 - **[PDCNet]** Hou J., et al. (2023). Mask3D: Pretraining 2D Vision Transformers by Learning Masked 3D Priors. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2302.14746.pdf) [Code]
-- **[BiFCNet]** Zhu X., et al. (2023). Clothes Grasping and Unfolding Based on RGB-D Semantic Segmentation. IEEE International Conference on Robotics and Automation. [[Paper]](https://browse.arxiv.org/pdf/2305.03259.pdf) 
+- **[BiFCNet]** Zhu X., et al. (2023). Clothes Grasping and Unfolding Based on RGB-D Semantic Segmentation. IEEE International Conference on Robotics and Automation. [[Paper]](https://arxiv.org/pdf/2305.03259.pdf)
+- **[MMSI]** Guttikonda S., et al. (2023). Single Frame Semantic Segmentation Using Multi-Modal Spherical Images. IEEE/CVF Winter Conference on Applications of Computer Vision [[Paper]](https://arxiv.org/pdf/2308.09369.pdf) [[Code]](https://github.com/sguttikon/SFSS-MMSI) 
+- **[SGACNet]** Zhang Y., et al. (2023). Spatial-information Guided Adaptive Context-aware Network for Efficient RGB-D Semantic Segmentation. IEEE Sensors Journal. [[Paper]](https://browse.arxiv.org/pdf/2308.06024.pdf) [[Code]](https://github.com/MVME-HBUT/SGACNet) 
+- **[DFormer]** Yin B., et al. (2023). Rethinking RGBD Representation Learning for Semantic Segmentation. arXiv:2309.09668 [[Paper]](https://arxiv.org/pdf/2309.09668.pdf) [[Code]](https://github.com/VCIP-RGBD/DFormer) 
+- **[AsymFormer]** Du S., et al. (2023). Asymmetrical Cross-Modal Representation Learning for Mobile Platform Real-Time RGB-D Semantic Segmentation. arXiv:2309.14065 [[Paper]](https://arxiv.org/pdf/2309.14065.pdf) [[Code]](https://github.com/Fourier7754/AsymFormer) 
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
