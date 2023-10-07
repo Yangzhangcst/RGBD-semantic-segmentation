@@ -2,7 +2,7 @@
 
 A paper list of RGBD semantic segmentation.
 
-*Last updated: 2023/01/03
+*Last updated: 2023/10/07
 
 #### Update log
 
@@ -22,6 +22,7 @@ A paper list of RGBD semantic segmentation.
 *2022/May* - update some recent papers of RGBD semantic segmentation.   
 *2022/July* - update some recent papers of RGBD semantic segmentation.   
 *2023/January* - update some recent papers of RGBD semantic segmentation.  
+*2023/October* - update some recent papers of RGBD semantic segmentation.  
 
 ##
 
