@@ -172,9 +172,12 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **FAFNet**        |    78.3     |             |    54.0    |                  | RGBD  |                 |    IET IP   | 2022 |
 |         **EMSANet**        |             |             |    53.34   |                  | RGBD  |                 |     IJCNN   | 2022 |
 |          **DCANet**        |    78.2     |             |    53.3    |                  | RGBD  |                 |     arXiv   | 2022 |
-|          **WTNet**         |    77.7     |     64.1    |    52.13   |                  | RGBD  |                  | Evolving Sys. | 2022 |
+|          **WTNet**         |    77.7     |     64.1    |    52.13   |                  | RGBD  |                 | Evolving Sys. | 2022 |
 |       **Link-RGBD**        |    76.8     |     59.6    |    49.5    |                  | RGBD  |                 | IEEE SJ     | 2022 |
 |      **TransD-Fusion**     |    78.5     |     69.4    |    55.5    |   66.3           | RGBD  |                 |    CVIU     | 2022 |
+|       **[PDCNet]**         |    77.7     |             |    52.7    |                  | RGBD  |                 |    TCSVT    | 2023 |
+|       **[Mask3D]**         |             |             |    56.9    |                  | RGBD  |                 |    CVPR     | 2023 |
+|       **[BiFCNet]**        |    77.9     |             |    51.8    |                  | RGBD  |                 |    ICRA     | 2023 |
 
 ### SUN RGB-D 
 
@@ -266,6 +269,7 @@ Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard t
 |          **WTNet**         |    83.7     |     62.3    |    50.21   |         | RGBD  |                  | Evolving Sys. | 2022 |
 |       **Link-RGBD**        |    83.1     |     53.5    |    48.4    |         | RGBD  |                  | IEEE SJ   | 2022 |
 |      **TransD-Fusion**     |    83.2     |     64.1    |    51.9    |   72.8  | RGBD  |                  |    CVIU   | 2022 |
+|       **[PDCNet]**         |    82.4     |             |    49.2    |         | RGBD  |                  | IEEE TCSVT| 2023 |
 
 ### 2D-3D-S 
 
@@ -415,8 +419,14 @@ International Conference on Cognitive Systems and Signal Processing. [[Paper]](h
 - **[FAFNet]** Chen J., et al. (2022). FAFNet: Fully aligned fusion network for RGBD semanticsegmentation based on hierarchical semantic flows. IET Image Processing. [[Paper]](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/ipr2.12614) [Code]
 - **[EMSANet]** Seichter D., et al. (2022). Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments. International Joint Conference on Neural Networks (IJCNN). [[Paper]](https://ieeexplore.ieee.org/abstract/document/9892852) [[Code]](https://github.com/TUI-NICR/EMSANet)
 - **[WTNet]** Fan R., et al. (2022). RGB‑D indoor semantic segmentation network based on wavelet transform. Evolving Systems. [[Paper]](https://link.springer.com/content/pdf/10.1007/s12530-022-09479-5.pdf?pdf=button)
+- **[DCANet]** Bai L., et al. (2022). DCANet: Differential Convolution Attention Network for RGB-D Semantic Segmentation. arXiv:2210.06747 [[Paper]](https://arxiv.org/pdf/2210.06747.pdf) [Code]
 - **[Link-RGBD]** Wu P., et al. (2022). Link-RGBD: Cross-Guided Feature Fusion Network for RGBD Semantic Segmentation. IEEE Sensors Journal. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9940618) [Code]
 - **[TransD-Fusion]** Wu Z., et al. (2022). Transformer Fusion for Indoor RGB-D Semantic Segmentation. Computer Vision and Image Understanding. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4251286) [Code]
+- **[GANDA]** Liao Y., et al. (2022). Geometry-Aware Network for Domain Adaptive Semantic Segmentation. The Thirty-Sixth AAAI Conference on Artificial Intelligence. [[Paper]](https://arxiv.org/pdf/2212.00920.pdf)
+- **[SupeRGB-D]** Örnek E. P., et al. (2023). SupeRGB-D: Zero-shot Instance Segmentation in Cluttered Indoor Environments. IEEE Robotics and Automation Letters. [[Paper]](https://arxiv.org/pdf/2212.11922.pdf) [[Code]](https://github.com/evinpinar/supergb-d)
+- **[PDCNet]** Yang J., et al. (2023). Pixel Difference Convolutional Network for RGB-D Semantic Segmentation. IEEE Transactions on Circuits and Systems for Video Technology. [[Paper]](https://arxiv.org/pdf/2302.11951.pdf) [Code](https://github.com/evinpinar/supergb-d) 
+- **[PDCNet]** Hou J., et al. (2023). Mask3D: Pretraining 2D Vision Transformers by Learning Masked 3D Priors. IEEE Conference on Computer Vision and Pattern Recognition. [[Paper]](https://arxiv.org/pdf/2302.14746.pdf) [Code]
+- **[BiFCNet]** Zhu X., et al. (2023). Clothes Grasping and Unfolding Based on RGB-D Semantic Segmentation. IEEE International Conference on Robotics and Automation. [[Paper]](https://browse.arxiv.org/pdf/2305.03259.pdf) 
 
 ## Citing
 If you find this repository useful in your research, please consider citing:
